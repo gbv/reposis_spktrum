@@ -21,15 +21,36 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+    <profiles>
+        <profile>
+            <id>default-lib-target</id>
+            <activation>
+                <property>
+                    <name>!env.MIR_HOME</name>
+                </property>
+            </activation>
+            <build>
+                <plugins>
+                    <plugin>
+                        <!-- copy jar file to a specific folder -->
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-jar-plugin</artifactId>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
+
     <parent>
         <groupId>de.gbv.reposis</groupId>
         <artifactId>reposis_mir_parent</artifactId>
-        <version>2020.06-SNAPSHOT</version>
+        <version>2021.06-SNAPSHOT</version>
     </parent>
 
     <groupId>de.gbv.spktrum</groupId>
     <artifactId>reposis_spktrum</artifactId>
-    <version>2022.06-SNAPSHOT</version>
+    <version>2021.06-SNAPSHOT</version>
+
     <properties>
         <MCR.AppName>spktrum</MCR.AppName>
     </properties>
@@ -39,6 +60,9 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
+                <configuration>
+                    <outputDirectory>${env.MIR_HOME}/lib</outputDirectory>
+                </configuration>
             </plugin>
         </plugins>
     </build>
