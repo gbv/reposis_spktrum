@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="mir_institutes">
+  <label xml:lang="de" text="Einrichtungen" description="Liste der Einrichtungen" />
+  <label xml:lang="x-uri" text="https://spktrum.spk-berlin.de/mir_institutes" />
+  <label xml:lang="en" text="Institutions" description="A list of institutions" />
+  <categories>
+
+    <category ID="SMB">
+      <label xml:lang="de" text="Staatliche Museen zu Berlin" />
+      <label xml:lang="en" text="Staatliche Museen zu Berlin" />
+      <url xlink:href="https://www.smb.museum" xlink:type="locator" />
+    </category>
+
+    <category ID="SBB">
+      <label xml:lang="de" text="Staatsbibliothek zu Berlin" />
+      <label xml:lang="en" text="Staatsbibliothek zu Berlin" />
+      <url xlink:href="https://staatsbibliothek-berlin.de" xlink:type="locator" />
+    </category>
+ 
+    <category ID="GStA">
+      <label xml:lang="de" text="Geheimes Staatsarchiv Preußischer Kulturbesitz" />
+      <label xml:lang="en" text="Geheimes Staatsarchiv Preußischer Kulturbesitz" />
+      <url xlink:href="https://gsta.preussischer-kulturbesitz.de" xlink:type="locator" />
+    </category>
+ 
+    <category ID="IAI">
+      <label xml:lang="de" text="Ibero-Amerikanisches Institut" />
+      <label xml:lang="en" text="Ibero-Amerikanisches Institut" />
+      <url xlink:href="https://www.iai.spk-berlin.de" xlink:type="locator" />
+    </category>
+ 
+    <category ID="SIM">
+      <label xml:lang="de" text="Staatliches Institut für Musikforschung" />
+      <label xml:lang="en" text="Staatliches Institut für Musikforschung" />
+      <url xlink:href="https://www.simpk.de" xlink:type="locator" />
+    </category>
+
+    <category ID="HV">
+      <label xml:lang="de" text="Hauptverwaltung SPK" />
+      <label xml:lang="en" text="Hauptverwaltung SPK" />
+      <url xlink:href="https://www.preussischer-kulturbesitz.de/ueber-uns/hauptverwaltung.html" xlink:type="locator" />
+    </category>
+ 
+    <category ID="SPK">
+      <label xml:lang="de" text="Stiftung Preußischer Kulturbesitz" />
+      <label xml:lang="en" text="Stiftung Preußischer Kulturbesitz" />
+      <url xlink:href="https://www.preussischer-kulturbesitz.de" xlink:type="locator" />
+    </category>
+
+    <category ID="Other">
+      <label xml:lang="de" text="Andere" />
+      <label xml:lang="en" text="Other" />
+    </category>
+  
+  </categories>
+</mycoreclass>
