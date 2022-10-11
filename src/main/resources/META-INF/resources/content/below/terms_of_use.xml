@@ -1,38 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MyCoReWebPage>
-    <section xml:lang="de" title="NUTZUNGSBEDINGUNGEN">
-        <div class="row">
-            <div class="col-md-12" lang="de">
-                <h1>Nutzungsbedingungen</h1>
-                <p>
-                    Informationen zur Nutzung.
-                </p>
-                <p>
-                    Weitere Erklärungen.
-                </p>
-                <h2>
-                    Überschrift 1
-                </h2>
-                <p>
-                    Hier kommt noch Text.
-                </p>
-                <h2>
-                    Überschrift 2
-                </h2>
-                <p>
-                    Hier kommt noch viel mehr Text.
-                    <ul>
-                        <li>...</li>
-                        <li>...</li>
-                        <li>...</li>
-                    </ul>
-                </p>
-            </div>
+  <section xml:lang="de" title="Nutzungsbedingungen">
+    <div class="row">
+      <div class="col-md-12" lang="de">
+        <h1>Nutzungsbedingungen</h1>
+        <p>
+          Die elektronischen Dokumente werden in SPKtrum, sofern möglich, unter einer CC-Lizenz
+          veröffentlicht. Alle auf SPKtrum veröffentlichten beschreibenden bibliographischen Metadaten – mit
+          Ausnahme der Abstracts – stehen unter der CC0 1.0 Universell-Lizenz zur freien
+          Weiterverwendung zur Verfügung.
+        </p>
+        <p>
+          Bitte geben Sie bei Nutzung die vollständige Quellenangabe an (siehe unten). Bitte schicken Sie uns
+          bei der Verwendung auf Webseiten zur Information den Link auf die entsprechende Stelle per E-Mail:
+          SPKtrum@hv.spk-berlin.de. Wir würden uns freuen, wenn Sie uns bei der Verwendung in
+          wissenschaftlichen Publikationen ein Belegexemplar der Publikation zusenden könnten.
+        </p>
+        <p>
+          Quellenangabe: SPKtrum Repository, Persistent-Identifier (DOI) des digitalen Objects
+        </p>
+        <p>
+          Beispiel: SPKtrum Repository,
+          <a href="https://doi.org/10.24355/dbbs.084-201802231113" class="external-link" target="_blank" title="Follow link">
+            https://doi.org/10.24355/dbbs.084-201802231113
+          </a>
+            (DOI)
+          </p>
         </div>
+      </div>
     </section>
-    <section xml:lang="en" title="TERMS OF USE">
-    </section>
-    <meta>
-        <log lastEditor="administrator" date="2020-06-10" time="15:29"/>
-    </meta>
-</MyCoReWebPage>
+    <meta/>
+  </MyCoReWebPage>
