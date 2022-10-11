@@ -1,24 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE MyCoReWebPage>
 <MyCoReWebPage>
-    <section xml:lang="de" title="Impressum">
-        <div class="row">
-            <div class="col-md-12" lang="de">
-                <h1>Impressum</h1>
-                <p>
-                    Die nachstehenden Informationen enthalten die gesetzlich vorgesehenen Pflichtangaben zur
-                    Anbieterkennzeichnung, sowie wichtige rechtliche Hinweise zur Internetpräsenz der ...
-                </p>
-
-                <h2>Anbieter</h2>
-                <p>
-                    Anbieter dieser Internetpräsenz ist im Rechtssinne ...
-                </p>
-            </div>
+  <section xml:lang="de" title="Impressum">
+    <div class="row">
+      <div class="col-md-12" lang="de">
+        <p>
+          <h1>Impressum</h1>
+          <div>
+          Die nachstehenden Informationen enthalten die gesetzlich vorgesehenen Pflichtangaben zur Anbieterkennzeichnung, 
+          sowie wichtige rechtliche Hinweise zur Internetpräsenz der Staatsbibliothek zu Berlin - Preußischer Kulturbesitz.
         </div>
-    </section>
+        </p>
+        <p>
+          <h2>
+            <a id="Anbieter" name="Anbieter">Anbieter</a>
+          </h2>
+          <div>Anbieter dieser Website ist die Stiftung Preußischer Kulturbesitz.</div>
+          <div>
+            Stiftung Preußischer Kulturbesitz<br/>
+            Von-der-Heydt-Str. 16-18<br/>
+            10785 Berlin<br/>
+            Tel.: +49 (0)30 266 412889<br/>
+            Fax: +49 (0)30 266 412821<br/>
+            <span class="madress">info [at] hv.spk-berlin.de</span><br/>
+            <span class="madress">info [at] spk-berlin.de-mail.de</span>
+        </div>
+        </p>
+        <p>
+          <h2>
+            <a id="Vertreter" name="Vertreter">Vertreter</a>
+          </h2>
+          <div>
+          Die Stiftung Preußischer Kulturbesitz wird gesetzlich vertreten durch ihren Präsidenten, 
+          Prof. Dr. Dr. hc. mult. Hermann Parzinger.
+        </div>
+        </p>
+        <p>
+          <h2>
+            <a id="Umsatzsteueridentifikationsnummer" name="Umsatzsteueridentifikationsnummer">Umsatzsteueridentifikationsnummer</a>
+          </h2>
+          <div>Die Umsatzsteueridentifikationsnummer (USt-IdNr.) der Stiftung Preußischer Kulturbesitz lautet DE 338204900.</div>
+        </p>
+        <p>
+          <h2>
+            <a id="Ansprechpartner" name="Ansprechpartner">Ansprechpartner</a>
+          </h2>
+          <div>
+            Fachverfahrensverantwortung: Dr. Felix Schäfer<br/>
+            E-Mail: <span class="madress">F.Schaefer [at] hv.spk-berlin.de</span><br/>
+        </div>
+        </p>
+        <p>
+          <h2>
+            <a id="Betrieb" name="Technischer Betrieb">Technischer Betrieb</a>
+          </h2>
+          <div>
+            Verbundzentrale des GBV (VZG)<br/>
+            Platz der Göttinger Sieben 1<br/>
+            D-37073 Göttingen
+        </div>
+        </p>
+        <p>
+          <h2>
+            <a id="Reposis" name="Digitale Bibliothek, Reposis">Digitale Bibliothek, Reposis</a>
+          </h2>
+          <div>
+            Telefon: 0551 39 5398<br/>
+            E-Mail: <span class="madress">dms-list [at] lists.gbv.de</span><br/>
+            <a href="https://www.gbv.de/Verbundzentrale/serviceangebote/reposis-repository-service">
+              https://www.gbv.de/Verbundzentrale/serviceangebote/reposis-repository-service
+            </a>
+        </div>
+        </p>
+      </div>
+    </div>
+  </section>
+  <meta>
 
-    <meta>
-        <log date="2020-10-22" time="18:09" labelPath=" » Admin" lastEditor="Kathleen Neumann"/>
-    </meta>
+</meta>
 </MyCoReWebPage>
