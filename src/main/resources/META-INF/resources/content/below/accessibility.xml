@@ -1,25 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE MyCoReWebPage>
 <MyCoReWebPage>
-    <section xml:lang="de" title="Barrierefreiheitserklärung">
-        <div class="row">
-            <div class="col-md-12" lang="de">
-                <h1>Erklärung zur Barrierefreiheit</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                    labore et dolore magna aliqua. Ullamcorper morbi tincidunt ornare massa eget egestas purus
-                    viverra. Vitae purus faucibus ornare suspendisse sed nisi lacus. Erat velit scelerisque in
-                    dictum non consectetur a erat. Faucibus et molestie ac feugiat sed lectus. Turpis in eu mi
-                    bibendum neque. At erat pellentesque adipiscing commodo elit at imperdiet dui. Ut porttitor leo
-                    a diam. Gravida cum sociis natoque penatibus et magnis dis parturient montes. Mollis nunc sed id
-                    semper risus in hendrerit gravida rutrum. Eget nunc scelerisque viverra mauris. Et ligula
-                    ullamcorper malesuada proin libero nunc. Felis donec et odio pellentesque. Quis ipsum
-                    suspendisse ultrices gravida dictum. Amet dictum sit amet justo donec enim diam vulputate ut.
-                    Consequat ac felis donec et odio pellentesque diam.
-                </p>
-            </div>
-        </div>
-    </section>
-    <meta>
-        <log lastEditor="administrator" date="2020-09-22" time="12:30"/>
-    </meta>
+  <section xml:lang="de" title="Barrierefreiheitserklärung">
+    <div class="row">
+      <div class="col-md-12" lang="de">
+        <h1>Erklärung zur Barrierefreiheit</h1>
+        <p>
+            Um eine weitgehende Barrierefreiheit zu ermöglichen, ist die Stiftung Preußischer Kulturbesitz
+            bemüht, das Webangebot entsprechend zu optimieren. Rechtsgrundlagen sind das
+            Behindertengleichstellungsgesetz (BGG) sowie die Barrierefreie-Informationstechnik-Verordnung
+            (BITV).
+          </p>
+        <p>
+            Diese Website befindet sich im Aufbau. Vor diesem Hintergrund wird für diese Webseite
+            baldmöglichst ein aktualisierter (manueller), von der W3C Web Accessibility Initiative (WAI)
+            entwickelter <a href="https://bik-fuer-alle.de/easy-checks.html" target="_blank">Test</a> 
+            durchgeführt werden.
+          </p>
+        <h2>Kontakt</h2>
+        <p>
+            Über die Kontaktseite der Stiftung Preußischer Kulturbesitz
+            <a href="https://www.preussischer-kulturbesitz.de/service/barriere-melden.html" target="_blank">
+                https://www.preussischer-kulturbesitz.de/service/barriere-melden.html
+            </a> können sie Mängel in Bezug auf die Einhaltung der Barrierefreiheitsanforderungen mitteilen und
+            nicht barrierefreie Inhalte in einem für sie zugänglichen Format anfordern.
+          </p>
+        <h2>Schlichtungsverfahren</h2>
+        <p>
+            Wenn auch nach Ihrem Feedback an den oben genannten Kontakt keine zufriedenstellende Lösung
+            gefunden wurde, können Sie sich an die Schlichtungsstelle nach § 16 BGG wenden. Die
+            Schlichtungsstelle BGG hat die Aufgabe, bei Konflikten zum Thema Barrierefreiheit zwischen
+            Menschen mit Behinderungen und öffentlichen Stellen des Bundes eine außergerichtliche
+            Streitbeilegung zu unterstützen. Das Schlichtungsverfahren ist kostenlos. Es muss kein
+            Rechtsbeistand eingeschaltet werden.
+          </p>
+        <h2>
+            Kontakt zur Schlichtungsstelle
+          </h2>
+        <p>
+            Schlichtungsstelle nach dem Behindertengleichstellungsgesetz bei dem Beauftragten der 
+            Bundesregierung für die Belange von Menschen mit Behinderungen
+          </p>
+        <p>
+            Mauerstraße 53<br/>
+            10117 Berlin<br/>
+            <br/>
+            Telefon: +49 (0)30 18 527-2805<br/>
+            Fax: +49 (0)30 18 527-2901<br/>
+            E-Mail: <span class="madress">info [at] schlichtungsstelle-bgg.de</span><br/>
+            Internet: <a href="http://www.schlichtungsstelle-bgg.de/" target="_blank">www.schlichtungsstelle-bgg.de</a>
+          </p>
+      </div>
+    </div>
+  </section>
+  <meta>
+  </meta>
 </MyCoReWebPage>
