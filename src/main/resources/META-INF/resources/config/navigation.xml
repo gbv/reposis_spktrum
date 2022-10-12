@@ -105,7 +105,7 @@
         <label xml:lang="de">Publikationsvertrag (pdf)</label>
         <label xml:lang="en">Publication contract (pdf)</label>
     </item>
-    <item href="/authorization/new-author.xed?action=register" type="intern" replaceMenu="false" constrainPopUp="false">
+    <item href="/authorization/registration.xed?action=register" type="intern" replaceMenu="false" constrainPopUp="false">
         <label xml:lang="de">Registrieren</label>
         <label xml:lang="en">Register</label>
     </item>
