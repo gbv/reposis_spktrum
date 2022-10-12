@@ -6,7 +6,10 @@
 // set the defaults for all responsive levels here
 // no (xl) media query necessary (desktop first)
 
-
+.fa-info {
+  font-size: 12px;
+  padding-right: 8px;
+}
 
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {

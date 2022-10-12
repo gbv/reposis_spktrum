@@ -19,8 +19,12 @@ $(document).ready(function() {
 
   // replace placeholder USERNAME with username
   var userID = $("#currentUser strong").html();
-  var newHref = 'https://reposis-test.gbv.de/PROJECT/servlets/solr/select?q=createdby:' + userID + '&fq=objectType:mods';
-  $("a[href='https://reposis-test.gbv.de/PROJECT/servlets/solr/select?q=createdby:USERNAME']").attr('href', newHref);
+  var localHref = 'http://localhost:8181/mir/servlets/solr/select?q=createdby:' + userID + '&fq=objectType:mods';
+  $("a[href='http://localhost:8181/mir/servlets/solr/select?q=createdby:USERNAME']").attr('href', localHref);
+  var testHref = 'https://reposis-test.gbv.de/spktrum/servlets/solr/select?q=createdby:' + userID + '&fq=objectType:mods';
+  $("a[href='https://reposis-test.gbv.de/spktrum/servlets/solr/select?q=createdby:USERNAME']").attr('href', testHref);
+  var prodHref = 'https://spktrum.spk-berlin.de/servlets/solr/select?q=createdby:' + userID + '&fq=objectType:mods';
+  $("a[href='https://spktrum.spk-berlin.de/servlets/solr/select?q=createdby:USERNAME']").attr('href', prodHref);
 
 });
 

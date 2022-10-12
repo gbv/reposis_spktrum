@@ -1,38 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE MyCoReWebPage>
 <MyCoReWebPage>
 
-  <section title="Willkommen bei MIR!" xml:lang="de">
-        <div class="jumbotwo" >
-            <div class="row">
-
-                <div class="col-12">
-                    <h2>Mods Institutional Repository (MIR)</h2>
-                </div>
-
-                <div class="col-md-4">
-                    <h3><span class="fas fa-check"></span> fertig</h3>
-                    <p>MIR ist eine MyCoRe-Software, die mit nur wenigen Anpassungen
-                    - so wie sie ist - als Repositorium eingesetzt werden kann.</p>
-                    <p><a class="btn btn-secondary" href="https://www.mycore.de/documentation/getting_started/gs_mir_install/" role="button">weitere Informationen »</a></p>
-                </div>
-                <div class="col-md-4">
-                    <h3><span class="fas fa-bolt"></span> mächtig</h3>
-                    <p>MIR verwendet das mächtige und bewährte MODS-Datenmodell. Den
-                    Kern der Webanwendung bildet MyCoRe mit einer Vielzahl von Funktionen.</p>
-                    <p><a class="btn btn-secondary" href="https://www.mycore.de/site/features/" role="button">weitere Informationen »</a></p>
-                </div>
-                <div class="col-md-4">
-                    <h3><span class="fas fa-heart"></span> lebendig</h3>
-                    <p>MIR basiert auf dem Software-Kern MyCoRe, der kontinuierlich
-                    weiter entwickelt wird. Eine lebendige Community setzt MIR in
-                    ihren Anwendungen ein.</p>
-                    <p><a class="btn btn-secondary" href="https://www.mycore.de/site/community/contact/" role="button">weitere Informationen »</a></p>
-                </div>
-            </div>
-        </div>
+  <section xml:lang="all" i18n="project.index.title">
+    <meta name='description' i18n="project.index.description" />
   </section>
-  <meta>
-    <log date="2015-05-22" time="11:12" labelPath=" » Start" lastEditor="Kathleen Neumann" />
-  </meta>
+
+  <section xml:lang="de" i18n="project.index.title">
+    <div class="jumbotwo" id="project-index-search">
+      <div class="row mb-4">
+        <div class="col-md-12" lang="de">
+          <index_search_form />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-8">
+          <h1>Über SPKtrum</h1>
+          <p>
+            SPKtrum <span>[ˈʃpɛktʁʊm ]</span> ist das Open-Science-Repositorium der Stiftung Preußischer 
+            Kulturbesitz (SPK). Hier werden multimediale Inhalte der Stiftung und ihrer Einrichtungen zur 
+            freien Nachnutzung angeboten.
+          </p>
+          <p>
+            Dies ergänzt die vielfältigen digitalen Angebote der Staatlichen Museen zu Berlin (SMB), der 
+            Staatsbibliothek zu Berlin (SBB), des Geheimen Staatsarchivs (GStA PK), des Ibero-Amerikanischen
+            Instituts (IAI) sowie des Staatlichen Instituts für Musikforschung (SIM PK).
+          </p>
+          <p>
+            Darüber hinaus besteht auch für Autor:innen außerhalb der SPK die Möglichkeit, ihre Publikationen
+            bei SPKtrum einzureichen, wenn sie einen konkreten Bezug zur Stiftung oder ihrem Sammlungsgut haben.
+          </p> 
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-header">
+              <h3 class="card-title">
+                <i class="fas fa-info" aria-hidden="true" />
+                <span>Nützliche Links</span>
+              </h3>
+            </div>
+            <div class="card-body">
+              <ul>
+                <li><a href="./about/further_reading.xml">Weitere digitale Angebote</a> im Bereich Open Science der einzelnen Einrichtungen der SPK</li>
+                <li><a href="https://www.preussischer-kulturbesitz.de/schwerpunkte/digitalisierung/open-science.html" target="_blank">
+                  Open Science Erklärung der SPK</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../js/jquery.number.js"></script>
+    <script>
+      $( document ).ready(function() {
+      $.ajax({
+      type: "GET",
+      url: "../api/v1/search?q=objectType:mods AND state:published&amp;rows=0&amp;wt=json&amp;json.wrf=?",
+      dataType: "jsonp",
+      success: function (data) {
+      $('#project-searchInput').attr('placeholder', 'Suche in ' + $.number(data.response.numFound,0, ',', '.') +
+      ' Dokumenten');
+      },
+      });
+      });
+    </script>
+  </section>
+
+  <meta></meta>
 </MyCoReWebPage>

@@ -7,6 +7,36 @@
 // no (xl) media query necessary (desktop first)
 
 
+.flatmir-footer {
+  color: white;
+  background-color: black;
+  border: none;
+  justify-content: center;
+  .nav-link {
+    padding: 1rem 2rem 0rem 2rem;
+  }
+}
+
+.internal_links {
+  border-top: 1px solid white;
+}
+
+.internal_links {
+  &.navbar-nav {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+.logo-section {
+  margin-bottom: 1rem;
+}
+
+.sbb_logo, .dfg_logo {
+  padding: 1rem 2rem 0rem 2rem;
+  max-height: 42px;
+}
+
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {
   // add/overwrite styles for responsive level lg and lower
