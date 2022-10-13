@@ -77,7 +77,7 @@
         <label xml:lang="de">nach Autor</label>
         <label xml:lang="en">by author</label>
     </item>
-    <item href="/content/browse/dcc.xml" type="intern" replaceMenu="false" constrainPopUp="false">
+    <item href="/content/browse/ddc.xml" type="intern" replaceMenu="false" constrainPopUp="false">
       <label xml:lang="de">nach DDC-Systematik</label>
       <label xml:lang="en">by DDC classification</label>
     </item>
