@@ -14,29 +14,35 @@
       </div>
       <div class="row">
         <div class="col-md-8">
-          <h1>Über SPKtrum</h1>
-          <p>
-            SPKtrum <span>[ˈʃpɛktʁʊm ]</span> ist das Open-Science-Repositorium der Stiftung Preußischer 
-            Kulturbesitz (SPK). Hier werden multimediale Inhalte der Stiftung und ihrer Einrichtungen zur 
-            freien Nachnutzung angeboten.
-          </p>
-          <p>
-            Dies ergänzt die vielfältigen digitalen Angebote der Staatlichen Museen zu Berlin (SMB), der 
-            Staatsbibliothek zu Berlin (SBB), des Geheimen Staatsarchivs (GStA PK), des Ibero-Amerikanischen
-            Instituts (IAI) sowie des Staatlichen Instituts für Musikforschung (SIM PK).
-          </p>
-          <p>
-            Darüber hinaus besteht auch für Autor:innen außerhalb der SPK die Möglichkeit, ihre Publikationen
-            bei SPKtrum einzureichen, wenn sie einen konkreten Bezug zur Stiftung oder ihrem Sammlungsgut haben.
-          </p> 
+          <div class="card">
+            <div class="card-header">
+              <h1 class="card-title"><span>Über SPKtrum</span></h1>
+            </div>
+            <div class="card-body">
+              <p>
+                SPKtrum <span>[ˈʃpɛktʁʊm ]</span> ist das Open-Science-Repositorium der Stiftung Preußischer 
+                Kulturbesitz (SPK). Hier werden multimediale Inhalte der Stiftung und ihrer Einrichtungen zur 
+                freien Nachnutzung angeboten.
+              </p>
+              <p>
+                Dies ergänzt die vielfältigen digitalen Angebote der Staatlichen Museen zu Berlin (SMB), der 
+                Staatsbibliothek zu Berlin (SBB), des Geheimen Staatsarchivs (GStA PK), des Ibero-Amerikanischen
+                Instituts (IAI) sowie des Staatlichen Instituts für Musikforschung (SIM PK).
+              </p>
+              <p>
+                Darüber hinaus besteht auch für Autor:innen außerhalb der SPK die Möglichkeit, ihre Publikationen
+                bei SPKtrum einzureichen, wenn sie einen konkreten Bezug zur Stiftung oder ihrem Sammlungsgut haben.
+              </p>
+            </div>
+          </div>
         </div>
         <div class="col-md-4">
           <div class="card">
             <div class="card-header">
-              <h3 class="card-title">
+              <h1 class="card-title">
                 <i class="fas fa-info" aria-hidden="true" />
                 <span>Nützliche Links</span>
-              </h3>
+              </h1>
             </div>
             <div class="card-body">
               <ul>
