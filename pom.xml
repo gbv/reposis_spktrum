@@ -35,6 +35,9 @@
                         <!-- copy jar file to a specific folder -->
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-jar-plugin</artifactId>
+                        <configuration>
+                          <outputDirectory>.</outputDirectory>
+                        </configuration>
                     </plugin>
                 </plugins>
             </build>
