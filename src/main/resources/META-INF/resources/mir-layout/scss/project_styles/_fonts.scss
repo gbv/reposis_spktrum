@@ -2,3 +2,17 @@
  * - add the needed fonts here
  */
 
+ @font-face {
+  font-family:"ClanBook";
+  src:url("../../../../fonts/ClanWeb-Book.woff") format("woff");
+  font-weight:normal;
+  font-style:normal;
+  font-display:swap
+ }
+ @font-face {
+  font-family:"ClanMedium";
+  src:url("../../../../fonts/ClanWeb-Medium.woff") format("woff");
+  font-weight:normal;
+  font-style:normal;
+  font-display:swap
+ }

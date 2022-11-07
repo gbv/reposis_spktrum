@@ -7,7 +7,10 @@
 // no (xl) media query necessary (desktop first)
 
 // logo and menu container
-
+#header_box {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {

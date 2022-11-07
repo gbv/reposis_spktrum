@@ -10,7 +10,7 @@
 
   <xsl:template name="mir.navigation">
 
-    <div id="header_box" class="clearfix container">
+    <div id="header_box" class="clearfix container bg-primary">
       <div class="row">
         <div class="col-12">
           <div id="options_nav_box" class="mir-prop-nav">
@@ -28,7 +28,7 @@
           <div id="project_logo_box">
             <a href="https://spktrum.spk-berlin.de"
                class="">
-              <img src="{$WebApplicationBaseURL}images/logo-dummy.png" class="project-logo__link" />
+              <img src="{$WebApplicationBaseURL}images/logo-spktrum-inverted.png" class="project-logo__link" />
             </a>
           </div>
         </div>
@@ -36,8 +36,8 @@
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="mir-main-nav bg-primary">
-      <div class="container">
+    <div class="mir-main-nav">
+      <div class="container bg-primary">
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
 
           <button
@@ -123,6 +123,14 @@
   <xsl:template name="mir.footer">
     <div class="container">
       <div class="row">
+        <div class="col-12">
+          <ul class="internal_links nav navbar-nav">
+            <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='below']/*" mode="footerMenu" />
+          </ul>
+        </div>
+      </div>
+      <!--
+      <div class="row">
         <div class="col-12 d-flex justify-content-center logo-section">
           <a href="https://www.preussischer-kulturbesitz.de/index.html" class="sbb logo" title="SPK Home" target="_blank">
             <span>Ein Dienst der</span><br />
@@ -134,19 +142,13 @@
           </a>
         </div>
       </div>
-      <div class="row">
-        <div class="col-12">
-          <ul class="internal_links nav navbar-nav">
-            <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='below']/*" mode="footerMenu" />
-          </ul>
-        </div>
-      </div>
+      -->
     </div>
   </xsl:template>
 
   <xsl:template name="mir.powered_by">
     <xsl:variable name="mcr_version" select="concat('MyCoRe ',mcrver:getCompleteVersion())" />
-    <div id="powered_by">
+    <div id="powered_by" class="container">
       <a href="http://www.mycore.de">
         <img src="{$WebApplicationBaseURL}mir-layout/images/mycore_logo_small_invert.png" title="{$mcr_version}" alt="powered by MyCoRe" />
       </a>
