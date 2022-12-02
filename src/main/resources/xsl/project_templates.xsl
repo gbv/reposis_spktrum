@@ -6,7 +6,7 @@
                 exclude-result-prefixes="">
   
   <xsl:template match="index_search_form">
-    <form action="concat('../servlets/solr/', 'find')" id="project-searchMainPage" class="form-inline" role="search">
+    <form action="../servlets/solr/find" id="project-searchMainPage" class="form-inline" role="search">
       <div class="input-group input-group-lg w-100">
         <input name="condQuery" placeholder="{i18n:translate('project.index_search.placeholder')}" class="form-control search-query" id="project-searchInput" type="text" />
         <div class="input-group-append">
