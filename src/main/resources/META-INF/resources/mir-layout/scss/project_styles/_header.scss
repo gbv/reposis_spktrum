@@ -7,10 +7,78 @@
 // no (xl) media query necessary (desktop first)
 
 // logo and menu container
-#header_box {
-  margin-top: 0;
-  margin-bottom: 0;
+.mir-top-nav {
+  background-color: $spkBlack;
+  a {
+    text-decoration: none;
+  }
 }
+.mir-logo-nav {
+  background-color: rgba(0, 0, 0, .3); //#e7b489;
+  background-image: url('../../../../images/background-bricks.png');
+  background-size: cover;
+  background-position: center center;
+  background-blend-mode: darken;
+}
+.mir-main-nav {
+  background-color: $primary;
+  border-top: 1px solid white;
+  a {
+    text-decoration: none;
+  }
+}
+.project-search-bar {
+  display: none;
+  margin-top: 1rem;
+  .searchBox {
+    background-color: $spkGrayBack;
+    padding: .5rem 1.25rem;
+    .searchfield_box {
+      width: 100%;
+      justify-content: end;
+    }
+  }
+}
+
+.mir-prop-nav {
+  background-color: $spkBlack;
+}
+#options_nav_box {
+  float: none;
+  padding: .5rem 1.25rem;
+  .nav-item {
+    margin-left: 1.25rem;
+  }
+}
+
+.project-logo {
+  padding: 2rem 1.25rem;
+  &__link {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    &:hover {
+      color: white;
+      text-decoration: none;
+    }
+  }
+  &__text {
+    padding-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  &__eagle {
+    width: 10rem;
+  }
+  &__title {
+  }
+  &__slogan {
+    font-weight: normal;
+    font-size: 1.5rem;
+  }
+}
+
 
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {

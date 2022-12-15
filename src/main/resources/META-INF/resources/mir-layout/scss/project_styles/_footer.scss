@@ -19,7 +19,7 @@
 }
 
 .internal_links {
-  border-top: 4px solid $spkBlack;
+  border-top: 4px solid $primary;
   padding-top: 2rem;
   padding-bottom: 4rem;
   &.navbar-nav {
@@ -41,15 +41,19 @@
 
 .logo-section {
   margin-bottom: 1rem;
+  & > div {
+    margin-left: 3rem;
+  }
   .sbb_logo,
   .dfg_logo {
-    padding: 1rem 2rem 0rem 2rem;
-    max-height: 42px;
+    max-height: 3rem;
+    margin-top: 0.5rem;
   }
 }
 
 #powered_by {
-  background-color: #000;
+  background-color: $primary;
+  margin-top: 2rem;
   padding: 2rem 0;
 }
 

@@ -15,20 +15,30 @@
 // --------------------------------------------------
 
 // provided colors from cd
-
 $spkBlack:      #000000;
+$spkGrayWhite:  #f2f2f2;
 $spkGrayLight:  #cccccc;
 $spkGrayMedium: #999999;
 $spkGrayDark:   #666666;
+
+// colors from webpage
+$spkGrayDivider:  #7f7f7f;
+$spkGrayBack:     #ededed;
+
+// colors from revision
+$spkBlue: #3c4678;
+$spkOrange: #9b7d64;
 
 // --------------------------------------------------
 //  overwrite bootstrap
 // --------------------------------------------------
 
-$primary: $spkBlack;
-$secondary: $spkBlack;
+$primary: $spkBlue;
+$secondary: $spkOrange;
 
-$link-color: $spkGrayDark;
+$font-size-base: 1rem;
+
+$link-color: $secondary;
 $link-decoration: underline;
 $link-hover-color: $spkBlack;
 $link-hover-decoration: underline;
@@ -39,3 +49,27 @@ $headings-font-family: ClanMedium, arial, helvetica, sans-serif;
 $border-radius: 0;
 $border-radius-lg: 0;
 $border-radius-sm: 0;
+
+$dropdown-box-shadow: 0 3px 3px 0 rgba(127,127,127,0.5); //TODO: is not working, why?
+$dropdown-color: black;
+$dropdown-spacer: 0;
+$dropdown-link-color: black;
+$dropdown-border-color: $spkGrayDivider;
+$dropdown-border-width: 0;
+$dropdown-link-hover-color: white;
+$dropdown-link-hover-bg: $primary;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1320px
+);
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1260px
+);

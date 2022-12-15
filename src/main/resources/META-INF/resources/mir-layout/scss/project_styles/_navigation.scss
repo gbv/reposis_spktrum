@@ -6,6 +6,71 @@
 // set the defaults for all responsive levels here
 // no (xl) media query necessary (desktop first)
 
+.mir-main-nav {
+  .navbar {
+    padding: 0;
+    width: 100%;
+  }
+  .navbar-nav {
+    width: 100%;
+    justify-content: space-between;
+  }
+  #basket-list-item,
+  .nav-item {
+    width: 100%;
+    min-width: 10rem;
+  }
+  .nav-link {
+    border-right: 1px solid white;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    font-weight: normal;
+    font-family: ClanBook, arial, helvetica, sans-serif;
+    &:hover {
+      color: black;
+      background-color: white;
+      box-shadow: 0 3px 3px 0 rgba(127,127,127,0.5);
+    }
+    &:first-child {
+      border-left: 1px solid white;
+    }
+  }
+  .dropdown-menu {
+    box-shadow: 0 3px 3px 0 rgba(127,127,127,0.5);
+    & > li {
+      //border-bottom: 1px solid $spkGrayLight;
+    }
+  }
+
+  // overwrites botswatch rules for main nav
+  .bg-primary .navbar-nav .nav-link,
+  .bg-primary .navbar-nav .nav-link.active {
+    color: white !important;
+    &:hover {
+      color: black !important;
+      background-color: white;
+      box-shadow: 0 3px 3px 0 rgba(127,127,127,0.5);
+    }
+  }
+  .bg-primary .navbar-nav .show > .nav-link,
+  .bg-primary .navbar-nav .active > .nav-link {
+    color: black !important;
+    background-color: white;
+    box-shadow: 0 3px 3px 0 rgba(127,127,127,0.5);
+  }
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 20px;
+  }
+
+}
+
+.dropdown-menu {
+  box-shadow: 0 3px 3px 0 rgba(127,127,127,0.5);
+}
+
+
+
+
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {
   // add/overwrite styles for responsive level lg and lower
