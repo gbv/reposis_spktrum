@@ -21,7 +21,7 @@
 .internal_links {
   border-top: 4px solid $primary;
   padding-top: 2rem;
-  padding-bottom: 4rem;
+  padding-bottom: 2rem;
   &.navbar-nav {
     flex-direction: row;
     justify-content: center;
@@ -40,21 +40,15 @@
 }
 
 .logo-section {
-  margin-bottom: 1rem;
-  & > div {
-    margin-left: 3rem;
-  }
-  .sbb_logo,
-  .dfg_logo {
-    max-height: 3rem;
-    margin-top: 0.5rem;
+  background-color: $primary;
+  .sbb_logo {
+    max-height: 6rem;
   }
 }
 
 #powered_by {
-  background-color: $primary;
-  margin-top: 2rem;
-  padding: 2rem 0;
+  background-color: #333;
+  padding: 1rem 0;
 }
 
 // Large devices (desktops) and below: <= 1200px

@@ -4,7 +4,7 @@
   <section xml:lang="de" title="Barrierefreiheitserklärung">
     <div class="row">
       <div class="col-md-12" lang="de">
-        <h1>Erklärung zur Barrierefreiheit</h1>
+        <h2>Erklärung zur Barrierefreiheit</h2>
         <p>
             Um eine weitgehende Barrierefreiheit zu ermöglichen, ist die Stiftung Preußischer Kulturbesitz
             bemüht, das Webangebot entsprechend zu optimieren. Rechtsgrundlagen sind das
@@ -14,10 +14,10 @@
         <p>
             Diese Website befindet sich im Aufbau. Vor diesem Hintergrund wird für diese Webseite
             baldmöglichst ein aktualisierter (manueller), von der W3C Web Accessibility Initiative (WAI)
-            entwickelter <a href="https://bik-fuer-alle.de/easy-checks.html" target="_blank">Test</a> 
+            entwickelter <a href="https://bik-fuer-alle.de/easy-checks.html" target="_blank">Test</a>
             durchgeführt werden.
           </p>
-        <h2>Kontakt</h2>
+        <h3>Kontakt</h3>
         <p>
             Über die Kontaktseite der Stiftung Preußischer Kulturbesitz
             <a href="https://www.preussischer-kulturbesitz.de/service/barriere-melden.html" target="_blank">
@@ -25,7 +25,7 @@
             </a> können sie Mängel in Bezug auf die Einhaltung der Barrierefreiheitsanforderungen mitteilen und
             nicht barrierefreie Inhalte in einem für sie zugänglichen Format anfordern.
           </p>
-        <h2>Schlichtungsverfahren</h2>
+        <h3>Schlichtungsverfahren</h3>
         <p>
             Wenn auch nach Ihrem Feedback an den oben genannten Kontakt keine zufriedenstellende Lösung
             gefunden wurde, können Sie sich an die Schlichtungsstelle nach § 16 BGG wenden. Die
@@ -34,11 +34,11 @@
             Streitbeilegung zu unterstützen. Das Schlichtungsverfahren ist kostenlos. Es muss kein
             Rechtsbeistand eingeschaltet werden.
           </p>
-        <h2>
+        <h3>
             Kontakt zur Schlichtungsstelle
-          </h2>
+          </h3>
         <p>
-            Schlichtungsstelle nach dem Behindertengleichstellungsgesetz bei dem Beauftragten der 
+            Schlichtungsstelle nach dem Behindertengleichstellungsgesetz bei dem Beauftragten der
             Bundesregierung für die Belange von Menschen mit Behinderungen
           </p>
         <p>

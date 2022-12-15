@@ -26,7 +26,11 @@ $spkGrayDivider:  #7f7f7f;
 $spkGrayBack:     #ededed;
 
 // colors from revision
-$spkBlue: #3c4678;
+$spkBlue:   #3c4678;
+$spkBlue80: #5166a4;
+$spkBlue60: #7b8bbd;
+$spkBlue40: #a6b2d3;
+$spkBlue20: #d3d8e9;
 $spkOrange: #9b7d64;
 
 // --------------------------------------------------
@@ -73,3 +77,5 @@ $container-max-widths: (
   lg: 960px,
   xl: 1260px
 );
+
+$card-cap-bg: $spkBlue20;

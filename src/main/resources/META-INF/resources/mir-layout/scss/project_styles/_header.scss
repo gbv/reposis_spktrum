@@ -8,11 +8,17 @@
 
 // logo and menu container
 .mir-top-nav {
-  background-color: $spkBlack;
+  background-color: $primary;
+  border-bottom: 1px solid white;
   a {
     text-decoration: none;
   }
 }
+.mir-prop-nav .navbar-nav > li > a:hover,
+.mir-prop-nav .navbar-nav > li > a:focus {
+  color: white;
+}
+
 .mir-logo-nav {
   background-color: rgba(0, 0, 0, .3); //#e7b489;
   background-image: url('../../../../images/background-bricks-fhd.jpg');
@@ -40,9 +46,6 @@
   }
 }
 
-.mir-prop-nav {
-  background-color: $spkBlack;
-}
 #options_nav_box {
   float: none;
   padding: .5rem 1.25rem;

@@ -5,18 +5,18 @@
   <section title="New publication" xml:lang="en" />
   <section xml:lang="all">
     <script src='../../js/mir/select-doctype.js'></script>
-    <h1>Publizieren</h1>
-    
+    <h2>Publizieren</h2>
+
     <!-- introduction -->
     <div class="row">
       <div class="col-sm-12 col-md-12">
         <p>
           Zur Veröffentlichung Ihres Beitrags auf SPKtrum
           <span>[ˈʃpɛktʁʊm ]</span>
-          ist zunächst die Erfassung 
+          ist zunächst die Erfassung
           seiner bibliographischen Daten erforderlich. Dazu kombinieren Sie bitte aus dem zweiteiligen Auswahlmenu
-          – so im konkreten Fall überhaupt erforderlich – die dem Typus Ihrer Publikation entsprechende 
-          Erfassungsmaske. Bitte beachten Sie, dass alle mit einen Asterisk * gekennzeichneten Felder der jeweils 
+          – so im konkreten Fall überhaupt erforderlich – die dem Typus Ihrer Publikation entsprechende
+          Erfassungsmaske. Bitte beachten Sie, dass alle mit einen Asterisk * gekennzeichneten Felder der jeweils
           gewählten Erfassungsmaske verpflichtend zu befüllen sind. Für jede angemeldete Veröffentlichung übersenden
           Sie bitte ergänzend einen vollständig ausgefüllten und mit Ihrer elektronischen Unterschrift
           versehenen
@@ -26,23 +26,23 @@
         </p>
       </div>
     </div>
-    
+
     <form id="submit_publication" class="form-horizontal" role="form" method="get" action="../../editor/editor-dynamic.xed">
-      
+
       <!-- genre -->
       <div class="row form-group">
         <div class="col-sm-7 col-md-5 col-lg-4">
           <select id="genre" class="form-control" name="genre" size="1"></select>
         </div>
       </div>
-      
+
       <!-- host -->
       <div class="row form-group">
         <div class="col-sm-7 col-md-5 col-lg-4">
           <select id="host" class="form-control" name="host" size="1"></select>
         </div>
       </div>
-      
+
       <!-- derzeit nicht gewünscht, siehe FDRSPK-23
 
       <div id="more_options_toggle" class="row">
@@ -53,9 +53,9 @@
           </span>
         </div>
       </div>
-      
+
       <div id="more_options_box" class="row form-group">
-        <h3>Publikation aus anderen Datenquellen importieren</h3>
+        <h4>Publikation aus anderen Datenquellen importieren</h4>
         <div class="row form-group">
           <label class="col-sm-3 col-lg-2 control-label">
             <select name="type">
@@ -75,7 +75,7 @@
           <button type="submit" class="btn btn-primary">Weiter</button>
         </div>
       </div>
-      
+
     </form>
   </section>
 </MyCoReWebPage>

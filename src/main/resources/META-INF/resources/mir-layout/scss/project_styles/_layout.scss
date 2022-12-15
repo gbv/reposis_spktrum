@@ -6,6 +6,9 @@
 // set the defaults for all responsive levels here
 // no (xl) media query necessary (desktop first)
 
+#page {
+  padding-top: 4rem;
+}
 #project_logo_box {
   img {
     width: 380px;

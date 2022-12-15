@@ -4,16 +4,16 @@
     <div class="row">
       <div class="col-md-12" lang="de">
 
-        <h1>Links auf weitere digitale Inhalte</h1>
+        <h2>Weitere Open Science Angebote</h2>
         <p>
-            Neben dem SPKtrum bieten die einzelnen Einrichtungen der Stiftung Preußischer Kulturbesitz spezielle 
+            Neben dem SPKtrum bieten die einzelnen Einrichtungen der Stiftung Preußischer Kulturbesitz spezielle
             digitale Angebote im Bereich Open Science an
         </p>
 
-        <h2>Staatliche Museen zu Berlin (SMB)</h2>
+        <h3>Staatliche Museen zu Berlin (SMB)</h3>
         <ul>
           <li>
-            Open-Science-Seite 
+            Open-Science-Seite
             [<a href="http://www.smb.museum/open-science" class="external-link" target="_blank">smb.museum/open-science</a>]
           </li>
           <li>
@@ -23,10 +23,10 @@
           </li>
         </ul>
 
-        <h2>Staatsbibliothek zu Berlin (SBB)</h2>
+        <h3>Staatsbibliothek zu Berlin (SBB)</h3>
         <ul>
           <li>
-            Open-Access-Seite der SBB 
+            Open-Access-Seite der SBB
             [<a href="http://sbb.berlin/openaccess" class="external-link" target="_blank">http://sbb.berlin/openaccess</a>]
           </li>
           <li>
@@ -36,7 +36,7 @@
           </li>
         </ul>
 
-        <h2>Geheimes Staatsarchiv (GStA PK)</h2>
+        <h3>Geheimes Staatsarchiv (GStA PK)</h3>
         <ul>
           <li>
             Einstiegsseite GStA
@@ -50,9 +50,9 @@
           </li>
         </ul>
 
-        <h2>
+        <h3>
           Ibero-Amerikanisches Institut (IAI)
-        </h2>
+        </h3>
         <ul>
           <li>
             IAI-Publikationsserver
@@ -65,15 +65,15 @@
                 https://journals.iai.spk-berlin.de</a>]
           </li>
           <li>
-            Digitale Sammlungen des IAI 
+            Digitale Sammlungen des IAI
             [<a href="https://digital.iai.spk-berlin.de/" class="external-link" target="_blank">
                 https://digital.iai.spk-berlin.de</a>]
           </li>
         </ul>
 
-        <h2>
+        <h3>
           Staatliches Institut für Musikforschung (SIM PK)
-        </h2>
+        </h3>
         <ul>
           <li>
             Open Science im SIM

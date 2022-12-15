@@ -164,19 +164,16 @@
           </ul>
         </div>
       </div>
-      <div class="row">
-        <div class="col-12 d-flex justify-content-end logo-section">
-          <div>
-            <span>Ein Dienst der</span><br />
-            <a href="https://www.preussischer-kulturbesitz.de/index.html" class="sbb logo" title="SPK Home" target="_blank">
-              <img class="sbb_logo img-fluid" src="{$WebApplicationBaseURL}/images/logo-sbb-grau.png" />
-            </a>
-          </div>
-          <div>
-            <span>Gefördert durch</span><br />
-            <a href="http://www.dfg.de" class="dfg logo" title="DFG" target="_blank">
-              <img class="dfg_logo img-fluid" src="{$WebApplicationBaseURL}/images/logo-dfg-grau.png" />
-            </a>
+    </div>
+    <div class="logo-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div>
+              <a href="https://www.preussischer-kulturbesitz.de/index.html" class="sbb logo" title="SPK Home" target="_blank">
+                <img class="sbb_logo img-fluid" src="{$WebApplicationBaseURL}/images/logo-spk-white.png" />
+              </a>
+            </div>
           </div>
         </div>
       </div>
