@@ -55,6 +55,28 @@
         </div>
       </div>
     </div>
+
+    <div class="feature-logos">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="logos">
+              <div class="logo">
+                <a href="">
+                  <img class="re3data_logo img-fluid" src="../images/re3data-dummy.png" />
+                </a>
+              </div>
+              <div class="logo">
+                <a href="">
+                  <img class="openaire_logo img-fluid" src="../images/OpenAIRE_validated.png" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="jumbotwo"></div>
     <script src="../js/jquery.number.js"></script>
     <script>

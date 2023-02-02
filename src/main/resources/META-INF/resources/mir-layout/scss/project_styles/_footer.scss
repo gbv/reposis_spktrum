@@ -12,6 +12,7 @@
     background-color: white;
     border: none;
     justify-content: center;
+    margin-top:9rem;
     .container {
       margin-top: 0;
       margin-bottom: 0;
@@ -19,19 +20,6 @@
   }
 
   .footer {
-    &__logos {
-      .logos {
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        margin: 6rem 0;
-        .logo {
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-        }
-      }
-    }
     &__project {
       background-color: $spkBlue;
       .sbb-logo {
@@ -89,18 +77,6 @@
   .footer-menu {
     &__column {
       margin-left: 0rem;
-    }
-  }
-  .footer {
-    &__logos {
-      .logos {
-        .logo {
-          flex-direction: row;
-          flex-basis: 100%;
-          justify-content: center;
-          margin: 1rem 0;
-        }
-      }
     }
   }
 }

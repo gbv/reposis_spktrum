@@ -10,6 +10,19 @@
   .searchBox {
     display: none;
   }
+  .feature-logos {
+    .logos {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin: 6rem 0 0 0;
+      .logo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+    }
+  }
 }
 
 // Large devices (desktops) and below: <= 1200px
@@ -20,7 +33,20 @@
 // Medium devices (tablets) and below: <= 992px
 @include media-breakpoint-down(md) {
   // add/overwrite styles for responsive level md and lower
+  .mir-start_page {
+    .feature-logos {
+      .logos {
+        .logo {
+          flex-direction: row;
+          flex-basis: 100%;
+          justify-content: center;
+          margin: 1rem 0;
+        }
+      }
+    }
+  }
 }
+
 
 // Small devices (landscape phones) and below: <= 768px
 @include media-breakpoint-down(sm) {
