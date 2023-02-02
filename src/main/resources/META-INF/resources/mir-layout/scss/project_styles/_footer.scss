@@ -7,49 +7,76 @@
 // no (xl) media query necessary (desktop first)
 
 
-.flatmir-footer {
-  color: $spkBlack;
-  background-color: white;
-  border: none;
-  justify-content: center;
-  .container {
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-}
-
-.internal_links {
-  border-top: 4px solid $primary;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  &.navbar-nav {
-    flex-direction: row;
-    justify-content: center;
-  }
-  .nav-link {
-    padding: 0rem 2rem 0rem 2rem;
-  }
-  a {
+  .flatmir-footer {
     color: $spkBlack;
-    text-decoration: none;
-    text-transform: uppercase;
-    &:hover {
-      text-decoration: underline;
+    background-color: white;
+    border: none;
+    justify-content: center;
+    .container {
+      margin-top: 0;
+      margin-bottom: 0;
     }
   }
-}
 
-.logo-section {
-  background-color: $primary;
-  .sbb_logo {
-    max-height: 6rem;
+  .footer {
+    &__logos {
+      .logos {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 6rem 0;
+        .logo {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+        }
+      }
+    }
+    &__project {
+      background-color: $spkBlue;
+      .sbb-logo {
+        display: block;
+        width: 250px;
+        margin-top: 4rem;
+      }
+    }
+    &__credits {
+      background-color: $spkBlue;
+      .credits-spk {
+        text-align: left;
+        margin-bottom: 1rem;
+      }
+      .credits-mycore {
+        text-align: right;
+      }
+    }
   }
-}
 
-#powered_by {
-  background-color: #333;
-  padding: 1rem 0;
-}
+  .footer-menu {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    &__column {
+      display: flex;
+      flex-direction: column;
+      margin-left: 1rem;
+      a {
+        text-decoration: none;
+        margin-bottom: 1rem;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  #powered_by {
+    background-color: $spkBlue;
+    border-top: none;
+    padding: 1rem 0;
+    color: white;
+  }
 
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {
@@ -59,6 +86,23 @@
 // Medium devices (tablets) and below: <= 992px
 @include media-breakpoint-down(md) {
   // add/overwrite styles for responsive level md and lower
+  .footer-menu {
+    &__column {
+      margin-left: 0rem;
+    }
+  }
+  .footer {
+    &__logos {
+      .logos {
+        .logo {
+          flex-direction: row;
+          flex-basis: 100%;
+          justify-content: center;
+          margin: 1rem 0;
+        }
+      }
+    }
+  }
 }
 
 // Small devices (landscape phones) and below: <= 768px
@@ -69,4 +113,10 @@
 // Extra small devices (portrait phones): <= 576px
 @include media-breakpoint-down(xs) {
   // add/overwrite styles for responsive level xs
+  .footer-menu {
+    flex-wrap: wrap;
+    &__column {
+      flex-basis: 100%;
+    }
+  }
 }
