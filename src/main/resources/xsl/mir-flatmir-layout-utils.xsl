@@ -34,12 +34,20 @@
             <div class="project-logo">
               <a href="{concat($WebApplicationBaseURL,substring($loaded_navigation_xml/@hrefStartingPage,2),$HttpSession)}"
                  class="project-logo__link">
-                <img src="{$WebApplicationBaseURL}images/logo-eagle.png" class="project-logo__eagle" />
                 <div class="project-logo__text">
-                  <img src="{$WebApplicationBaseURL}images/logo-spktrum-hellblau.png" class="project-logo__title" />
-                  <h1 class="project-logo__slogan">Das OpenScience Repositorium der Stiftung Preußischer Kulturbesitz</h1>
+                  <div class="project-logo__eagle">
+                    <img
+                      src="{$WebApplicationBaseURL}images/logo-eagle.png"
+                      alt="logo spk" />
+                  </div>
+                  <div class="project-logo__title">
+                    <img
+                      src="{$WebApplicationBaseURL}images/logo-spktrum-hellblau-2.png"
+                      class="img-fluid"
+                      alt="logo spktrum" />
+                  </div>
                 </div>
-
+                <h1 class="project-logo__slogan">Das OpenScience Repositorium der Stiftung Preußischer Kulturbesitz</h1>
               </a>
             </div>
           </div>
@@ -155,41 +163,111 @@
     </li>
   </xsl:template>
 
+  <xsl:template name="project.generate_footer_menu_link">
+    <xsl:param name="menuLink" />
+    <a href="{$WebApplicationBaseURL}{$loaded_navigation_xml/menu[@id='below']/item[@href=$menuLink]/@href}" >
+        <xsl:choose>
+          <xsl:when test="$loaded_navigation_xml/menu[@id='below']/item[@href=$menuLink]/label[lang($CurrentLang)] != ''">
+            <xsl:value-of select="$loaded_navigation_xml/menu[@id='below']/item[@href=$menuLink]/label[lang($CurrentLang)]" />
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:value-of select="$loaded_navigation_xml/menu[@id='below']/item[@href=$menuLink]/label[lang($DefaultLang)]" />
+          </xsl:otherwise>
+        </xsl:choose>
+      </a>
+  </xsl:template>
+
+
   <xsl:template name="mir.footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <ul class="internal_links nav navbar-nav">
-            <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='below']/*" mode="footerMenu" />
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="logo-section">
+
+    <div class="footer__logos">
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <div>
-              <a href="https://www.preussischer-kulturbesitz.de/index.html" class="sbb logo" title="SPK Home" target="_blank">
-                <img class="sbb_logo img-fluid" src="{$WebApplicationBaseURL}/images/logo-spk-white.png" />
-              </a>
+            <div class="logos">
+              <div class="logo">
+                <a href="">
+                  <img class="re3data_logo img-fluid" src="{$WebApplicationBaseURL}/images/re3data-dummy.png" />
+                </a>
+              </div>
+              <div class="logo">
+                <a href="">
+                  <img class="openaire_logo img-fluid" src="{$WebApplicationBaseURL}/images/OpenAIRE_validated.png" />
+                </a>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+
+    <div class="footer__project">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <a href="https://www.preussischer-kulturbesitz.de/index.html" class="sbb-logo" title="SPK Home" target="_blank">
+              <img class="sbb_logo img-fluid" src="{$WebApplicationBaseURL}/images/logo-spk-white-free.png" />
+            </a>
+          </div>
+          <div class="col-12 col-lg">
+
+            <div class="footer-menu">
+              <div class="footer-menu__column">
+                <xsl:call-template name="project.generate_footer_menu_link">
+                  <xsl:with-param name="menuLink" select="'/content/below/contact.xed'"/>
+                </xsl:call-template>
+                <xsl:call-template name="project.generate_footer_menu_link">
+                  <xsl:with-param name="menuLink" select="'/content/below/imprint.xml'"/>
+                </xsl:call-template>
+              </div>
+
+              <div class="footer-menu__column">
+                <xsl:call-template name="project.generate_footer_menu_link">
+                  <xsl:with-param name="menuLink" select="'/content/below/rights.xml'"/>
+                </xsl:call-template>
+                <xsl:call-template name="project.generate_footer_menu_link">
+                  <xsl:with-param name="menuLink" select="'/content/below/terms_of_use.xml'"/>
+                </xsl:call-template>
+              </div>
+
+              <div class="footer-menu__column">
+                <xsl:call-template name="project.generate_footer_menu_link">
+                  <xsl:with-param name="menuLink" select="'/content/below/disclaimer.xml'"/>
+                </xsl:call-template>
+                <xsl:call-template name="project.generate_footer_menu_link">
+                  <xsl:with-param name="menuLink" select="'/content/below/accessibility.xml'"/>
+                </xsl:call-template>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
   </xsl:template>
+
 
   <xsl:template name="mir.powered_by">
     <xsl:variable name="mcr_version" select="concat('MyCoRe ',mcrver:getCompleteVersion())" />
-    <div id="powered_by">
+
+    <div id="powered_by" class="footer__credits">
       <div class="container">
-        <a href="http://www.mycore.de">
-          <img src="{$WebApplicationBaseURL}mir-layout/images/mycore_logo_small_invert.png" title="{$mcr_version}" alt="powered by MyCoRe" />
-        </a>
+        <div class="row">
+          <div class="col-12 col-md-6 credits-spk">
+            <span>© 2023 Stiftung Preußischer Kulturbesitz</span>
+          </div>
+          <div class="col-12 col-md-6 credits-mycore">
+            <a href="http://www.mycore.de">
+              <img src="{$WebApplicationBaseURL}mir-layout/images/mycore_logo_small_invert.png" title="{$mcr_version}" alt="powered by MyCoRe" />
+            </a>
+          </div>
+        </div>
       </div>
     </div>
+
   </xsl:template>
+
 
   <xsl:template name="getLayoutSearchSolrCore">
     <xsl:choose>

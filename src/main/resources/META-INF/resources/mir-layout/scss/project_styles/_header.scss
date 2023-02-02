@@ -58,6 +58,7 @@
   padding: 2rem 1.25rem;
   &__link {
     display: flex;
+    flex-direction: column;
     color: white;
     text-decoration: none;
     &:hover {
@@ -66,19 +67,21 @@
     }
   }
   &__text {
-    padding-left: 1rem;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    flex-direction: row;
   }
   &__eagle {
-    width: 10rem;
+    img {
+      width: 5rem;
+    }
   }
   &__title {
+    margin-left: 1rem;
   }
   &__slogan {
     font-weight: normal;
     font-size: 1.5rem;
+    margin-top: 1rem;
   }
 }
 
@@ -91,6 +94,13 @@
 // Medium devices (tablets) and below: <= 992px
 @include media-breakpoint-down(md) {
   // add/overwrite styles for responsive level md and lower
+  .project-logo {
+    &__eagle {
+      img {
+        width: 4rem;
+      }
+    }
+  }
 }
 
 // Small devices (landscape phones) and below: <= 768px
@@ -101,4 +111,18 @@
 // Extra small devices (portrait phones): <= 576px
 @include media-breakpoint-down(xs) {
   // add/overwrite styles for responsive level xs
+  .project-logo {
+    &__text {
+      flex-direction: column;
+    }
+    &__eagle {
+      img {
+        width: 3rem;
+      }
+    }
+    &__title {
+      margin-left: 0rem;
+      margin-top: 1rem;
+    }
+  }
 }
