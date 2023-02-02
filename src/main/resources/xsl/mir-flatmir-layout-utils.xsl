@@ -180,27 +180,6 @@
 
   <xsl:template name="mir.footer">
 
-    <div class="footer__logos">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <div class="logos">
-              <div class="logo">
-                <a href="">
-                  <img class="re3data_logo img-fluid" src="{$WebApplicationBaseURL}/images/re3data-dummy.png" />
-                </a>
-              </div>
-              <div class="logo">
-                <a href="">
-                  <img class="openaire_logo img-fluid" src="{$WebApplicationBaseURL}/images/OpenAIRE_validated.png" />
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
     <div class="footer__project">
       <div class="container">
         <div class="row">
