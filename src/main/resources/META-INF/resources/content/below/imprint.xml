@@ -1,78 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MyCoReWebPage>
-  <section xml:lang="de" title="Impressum">
-    <div class="row">
-      <div class="col-md-12" lang="de">
+<MyCoReWebPage><section xml:lang="de" title="Impressum"><div class="row">
+<div class="col-md-12" lang="de">
+<h2 id="Impressum">Impressum</h2>
 
-        <h2 id="Impressum">Impressum</h2>
-        <p>
-          Die nachstehenden Informationen enthalten die gesetzlich vorgesehenen Pflichtangaben zur Anbieterkennzeichnung,
-          sowie wichtige rechtliche Hinweise zur Internetpräsenz der Staatsbibliothek zu Berlin - Preußischer Kulturbesitz.
-        </p>
+<p>Die nachstehenden Informationen enthalten die gesetzlich vorgesehenen Pflichtangaben zur Anbieterkennzeichnung, sowie wichtige rechtliche Hinweise zur Internetpräsenz der Staatsbibliothek zu Berlin - Preußischer Kulturbesitz.</p>
 
-        <h3 id="Anbieter">
-          Anbieter
-        </h3>
-        <p>
-          Anbieter dieser Website ist die Stiftung Preußischer Kulturbesitz.
-        </p>
-        <p>
-          Stiftung Preußischer Kulturbesitz<br/>
-          Von-der-Heydt-Str. 16-18<br/>
-          10785 Berlin<br/>
-          Tel.: +49 (0)30 266 412889<br/>
-          Fax: +49 (0)30 266 412821<br/>
-          <span class="madress">info [at] hv.spk-berlin.de</span><br/>
-          <span class="madress">info [at] spk-berlin.de-mail.de</span>
-        </p>
+<h3 id="Anbieter">Anbieter</h3>
 
-        <h3 id="Vertreter">
-          Vertreter
-        </h3>
-        <p>
-          Die Stiftung Preußischer Kulturbesitz wird gesetzlich vertreten durch ihren Präsidenten,
-          Prof. Dr. Dr. hc. mult. Hermann Parzinger.
-        </p>
+<p>Anbieter dieser Website ist die Stiftung Preußischer Kulturbesitz.</p>
 
-        <h3 id="Umsatzsteueridentifikationsnummer">
-          Umsatzsteueridentifikationsnummer
-        </h3>
-        <p>
-          Die Umsatzsteueridentifikationsnummer (USt-IdNr.) der Stiftung Preußischer Kulturbesitz lautet DE 338204900.
-        </p>
+<p>Stiftung Preußischer Kulturbesitz<br />
+Von-der-Heydt-Str. 16-18<br />
+10785 Berlin<br />
+Tel.: +49 (0)30 266 412889<br />
+Fax: +49 (0)30 266 412821<br />
+<a href="mailto:info@hv.spk-berlin.de"><span class="madress">info@hv.spk-berlin.de</span></a><br />
+<a href="mailto:info@hv.spk-berlin.de"><span class="madress">info@spk-berlin.de-mail.de</span></a></p>
 
-        <h3 id="Ansprechpartner">
-          Ansprechpartner
-        </h3>
-        <p>
-          Fachverfahrensverantwortung: Dr. Felix Schäfer<br/>
-          E-Mail: <span class="madress">F.Schaefer [at] hv.spk-berlin.de</span><br/>
-        </p>
+<h3 id="Vertreter">Vertreter</h3>
 
-        <h3 id="Betrieb">
-          Technischer Betrieb
-        </h3>
-        <p>
-          Verbundzentrale des GBV (VZG)<br/>
-          Platz der Göttinger Sieben 1<br/>
-          D-37073 Göttingen
-        </p>
+<p>Die Stiftung Preußischer Kulturbesitz wird gesetzlich vertreten durch ihren Präsidenten, Prof. Dr. Dr. hc. mult. Hermann Parzinger.</p>
 
-        <h3 id="Reposis">
-          Digitale Bibliothek, Reposis
-        </h3>
-        <p>
-          Telefon: 0551 39 5398<br/>
-          E-Mail: <span class="madress">dms-list [at] lists.gbv.de</span><br/>
-          <a href="https://www.gbv.de/Verbundzentrale/serviceangebote/reposis-repository-service">
-            https://www.gbv.de/Verbundzentrale/serviceangebote/reposis-repository-service
-          </a>
-        </p>
+<h3 id="Umsatzsteueridentifikationsnummer">Umsatzsteueridentifikationsnummer</h3>
 
-      </div>
-    </div>
-  </section>
-  <meta>
+<p>Die Umsatzsteueridentifikationsnummer (USt-IdNr.) der Stiftung Preußischer Kulturbesitz lautet DE 338204900.</p>
 
-</meta>
-</MyCoReWebPage>
+<h3 id="Ansprechpartner">Ansprechpartner</h3>
+
+<p>Fachverfahrensverantwortung: Dr. Felix F. Schäfer<br />
+E-Mail: <a href="mailto:f.schaefer@hv.spk-berlin.de">f<span class="madress">.schaefer@hv.spk-berlin.de</span></a></p>
+
+<h3 id="Betrieb">Technischer Betrieb</h3>
+
+<p>Verbundzentrale des GBV (VZG)<br />
+Platz der Göttinger Sieben 1<br />
+D-37073 Göttingen</p>
+
+<h3 id="Reposis">Digitale Bibliothek, Reposis</h3>
+
+<p>Telefon: 0551 39 5398<br />
+E-Mail: <a href="mailto:dms-list@lists.gbv.de"><span class="madress">dms-list@lists.gbv.de</span></a><br />
+<a href="https://www.gbv.de/Verbundzentrale/serviceangebote/reposis-repository-service">https://www.gbv.de/Verbundzentrale/serviceangebote/reposis-repository-service </a></p>
+</div>
+</div>
+</section><meta><log lastEditor="test_admin" date="2023-01-12" time="11:21" /></meta></MyCoReWebPage>

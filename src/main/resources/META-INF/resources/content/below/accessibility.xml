@@ -1,58 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE MyCoReWebPage>
-<MyCoReWebPage>
-  <section xml:lang="de" title="Barrierefreiheitserklärung">
-    <div class="row">
-      <div class="col-md-12" lang="de">
-        <h2>Erklärung zur Barrierefreiheit</h2>
-        <p>
-            Um eine weitgehende Barrierefreiheit zu ermöglichen, ist die Stiftung Preußischer Kulturbesitz
-            bemüht, das Webangebot entsprechend zu optimieren. Rechtsgrundlagen sind das
-            Behindertengleichstellungsgesetz (BGG) sowie die Barrierefreie-Informationstechnik-Verordnung
-            (BITV).
-          </p>
-        <p>
-            Diese Website befindet sich im Aufbau. Vor diesem Hintergrund wird für diese Webseite
-            baldmöglichst ein aktualisierter (manueller), von der W3C Web Accessibility Initiative (WAI)
-            entwickelter <a href="https://bik-fuer-alle.de/easy-checks.html" target="_blank">Test</a>
-            durchgeführt werden.
-          </p>
-        <h3>Kontakt</h3>
-        <p>
-            Über die Kontaktseite der Stiftung Preußischer Kulturbesitz
-            <a href="https://www.preussischer-kulturbesitz.de/service/barriere-melden.html" target="_blank">
-                https://www.preussischer-kulturbesitz.de/service/barriere-melden.html
-            </a> können sie Mängel in Bezug auf die Einhaltung der Barrierefreiheitsanforderungen mitteilen und
-            nicht barrierefreie Inhalte in einem für sie zugänglichen Format anfordern.
-          </p>
-        <h3>Schlichtungsverfahren</h3>
-        <p>
-            Wenn auch nach Ihrem Feedback an den oben genannten Kontakt keine zufriedenstellende Lösung
-            gefunden wurde, können Sie sich an die Schlichtungsstelle nach § 16 BGG wenden. Die
-            Schlichtungsstelle BGG hat die Aufgabe, bei Konflikten zum Thema Barrierefreiheit zwischen
-            Menschen mit Behinderungen und öffentlichen Stellen des Bundes eine außergerichtliche
-            Streitbeilegung zu unterstützen. Das Schlichtungsverfahren ist kostenlos. Es muss kein
-            Rechtsbeistand eingeschaltet werden.
-          </p>
-        <h3>
-            Kontakt zur Schlichtungsstelle
-          </h3>
-        <p>
-            Schlichtungsstelle nach dem Behindertengleichstellungsgesetz bei dem Beauftragten der
-            Bundesregierung für die Belange von Menschen mit Behinderungen
-          </p>
-        <p>
-            Mauerstraße 53<br/>
-            10117 Berlin<br/>
-            <br/>
-            Telefon: +49 (0)30 18 527-2805<br/>
-            Fax: +49 (0)30 18 527-2901<br/>
-            E-Mail: <span class="madress">info [at] schlichtungsstelle-bgg.de</span><br/>
-            Internet: <a href="http://www.schlichtungsstelle-bgg.de/" target="_blank">www.schlichtungsstelle-bgg.de</a>
-          </p>
-      </div>
-    </div>
-  </section>
-  <meta>
-  </meta>
-</MyCoReWebPage>
+<MyCoReWebPage><section xml:lang="de" title="Barrierefreiheitserklärung"><div class="row">
+<div class="col-md-12" lang="de">
+<h2>Erklärung zur Barrierefreiheit</h2>
+
+<p>Um eine weitgehende Barrierefreiheit zu ermöglichen, ist die Stiftung Preußischer Kulturbesitz bemüht, das Webangebot entsprechend zu optimieren. Rechtsgrundlagen sind das Behindertengleichstellungsgesetz (BGG) sowie die Barrierefreie-Informationstechnik-Verordnung (BITV).</p>
+
+<p>Diese Website befindet sich im Aufbau. Vor diesem Hintergrund wird für diese Webseite baldmöglichst ein aktualisierter (manueller), von der W3C Web Accessibility Initiative (WAI) entwickelter <a href="https://bik-fuer-alle.de/easy-checks.html" target="_blank">Test</a> durchgeführt werden.</p>
+
+<h3>Kontakt</h3>
+
+<p>Über die Kontaktseite der Stiftung Preußischer Kulturbesitz <a href="https://www.preussischer-kulturbesitz.de/service/barriere-melden.html" target="_blank"> https://www.preussischer-kulturbesitz.de/service/barriere-melden.html </a> können sie Mängel in Bezug auf die Einhaltung der Barrierefreiheitsanforderungen mitteilen und nicht barrierefreie Inhalte in einem für sie zugänglichen Format anfordern.</p>
+
+<h3>Schlichtungsverfahren</h3>
+
+<p>Wenn auch nach Ihrem Feedback an den oben genannten Kontakt keine zufriedenstellende Lösung gefunden wurde, können Sie sich an die Schlichtungsstelle nach § 16 BGG wenden. Die Schlichtungsstelle BGG hat die Aufgabe, bei Konflikten zum Thema Barrierefreiheit zwischen Menschen mit Behinderungen und öffentlichen Stellen des Bundes eine außergerichtliche Streitbeilegung zu unterstützen. Das Schlichtungsverfahren ist kostenlos. Es muss kein Rechtsbeistand eingeschaltet werden.</p>
+
+<h3>Kontakt zur Schlichtungsstelle</h3>
+
+<p>Schlichtungsstelle nach dem Behindertengleichstellungsgesetz bei dem Beauftragten der Bundesregierung für die Belange von Menschen mit Behinderungen</p>
+
+<p>Mauerstraße 53<br />
+10117 Berlin<br />
+<br />
+Telefon: +49 (0)30 18 527-2805<br />
+Fax: +49 (0)30 18 527-2901<br />
+E-Mail: <a href="mailto: info@schlichtungsstelle-bgg.de"><span class="madress">info@schlichtungsstelle-bgg.de</span></a><br />
+Internet: <a href="http://www.schlichtungsstelle-bgg.de/" target="_blank">www.schlichtungsstelle-bgg.de</a></p>
+</div>
+</div>
+</section><meta><log lastEditor="test_admin" date="2023-01-12" time="11:21" /></meta></MyCoReWebPage>
