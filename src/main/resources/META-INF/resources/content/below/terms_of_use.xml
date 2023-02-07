@@ -1,33 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MyCoReWebPage>
-  <section xml:lang="de" title="Nutzungsbedingungen">
-    <div class="row">
-      <div class="col-md-12" lang="de">
-        <h2>Nutzungsbedingungen</h2>
-        <p>
-          Die elektronischen Dokumente werden in SPKtrum, sofern möglich, unter einer CC-Lizenz
-          veröffentlicht. Alle auf SPKtrum veröffentlichten beschreibenden bibliographischen Metadaten – mit
-          Ausnahme der Abstracts – stehen unter der CC0 1.0 Universell-Lizenz zur freien
-          Weiterverwendung zur Verfügung.
-        </p>
-        <p>
-          Bitte geben Sie bei Nutzung die vollständige Quellenangabe an (siehe unten). Bitte schicken Sie uns
-          bei der Verwendung auf Webseiten zur Information den Link auf die entsprechende Stelle per E-Mail:
-          SPKtrum@hv.spk-berlin.de. Wir würden uns freuen, wenn Sie uns bei der Verwendung in
-          wissenschaftlichen Publikationen ein Belegexemplar der Publikation zusenden könnten.
-        </p>
-        <p>
-          Quellenangabe: SPKtrum Repository, Persistent-Identifier (DOI) des digitalen Objects
-        </p>
-        <p>
-          Beispiel: SPKtrum Repository,
-          <a href="https://doi.org/10.24355/dbbs.084-201802231113" class="external-link" target="_blank" title="Follow link">
-            https://doi.org/10.24355/dbbs.084-201802231113
-          </a>
-            (DOI)
-          </p>
-        </div>
-      </div>
-    </section>
-    <meta/>
-  </MyCoReWebPage>
+<MyCoReWebPage><section xml:lang="de" title="Nutzungsbedingungen"><div class="row">
+<div class="col-md-12" lang="de">
+<h2>Nutzungsbedingungen</h2>
+
+<p>Die elektronischen Dokumente werden in SPKtrum, sofern möglich, unter einer CC-Lizenz veröffentlicht. Alle auf SPKtrum veröffentlichten beschreibenden bibliographischen Metadaten – mit Ausnahme der Abstracts – stehen unter der CC0 1.0 Universell-Lizenz zur freien Weiterverwendung zur Verfügung.</p>
+
+<h3>Zitation von Erstpublikationen</h3>
+
+<p>Wenn Sie einen Beitrag, der in SPKtrum als Erstpublikationen ausgewiesen ist, in einem neuen Kontext nutzen, können Sie die vollständige Quellenangabe entweder anhand der Zitierform machen, die im jeweiligen Beitrag in der rechten Spalte angegeben ist. Alternativ kann auch eine Zitation nur anhand des Persistenten Identifiers (DOI) in folgender Form erfolgen:</p>
+
+<p>Quellenangabe: SPKtrum Repository, Persistent-Identifier (DOI) des digitalen Objects<br />
+Beispiele: SPKtrum Repository, https://doi.org/10.24355/dbbs.084-201802231113 (DOI)</p>
+
+<h3>Zitation von Zweitpublikationen</h3>
+
+<p>Bei Nutzung eines elektronischen Dokumentes, das als Zweitpublikation ausgewiesen ist, verwenden Sie bitte die im jeweiligen Beitrag in der rechten Spalte angegebene Zitierform.</p>
+</div>
+</div>
+</section><meta><log lastEditor="test_admin" date="2023-01-23" time="15:27" /></meta></MyCoReWebPage>
