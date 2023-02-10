@@ -31,20 +31,6 @@
         <label xml:lang="it" text="Prefazione / Epilogo" />
         <label xml:lang="en" text="Preface (foreword) / Postface" />
       </category>
-      <category ID="speech">
-        <label xml:lang="en" text="Lecture / Speech" />
-        <label xml:lang="it" text="Conferenza" />
-        <label xml:lang="x-mapping" text="marcgt:article diniPublType:other diniPublType2022:Other" />
-        <label xml:lang="de" text="Vortrag" />
-        <label xml:lang="x-hosts" text="proceedings standalone" />
-      </category>
-      <category ID="presentation">
-        <label xml:lang="de" text="Präsentation " />
-        <label xml:lang="en" text="Presentation" />
-        <label xml:lang="it" text="Presentatione" />
-        <label xml:lang="x-hosts" text="standalone" />
-        <label xml:lang="x-mapping" text="marcgt:article diniPublType:other diniPublType2022:Other" />
-      </category>
       <category ID="review">
         <label xml:lang="it" text="Recensione" />
         <label xml:lang="de" text="Rezension" />
@@ -130,6 +116,13 @@
       <label xml:lang="x-mapping" text="marcgt:series diniPublType:other diniPublType2022:EditedCollection" />
       <label xml:lang="x-hosts" text="series standalone" />
       <label xml:lang="en" text="Collection" />
+      <category ID="yearbook">
+        <label xml:lang="de" text="Jahrbuch" />
+        <label xml:lang="it" text="Annuario" />
+        <label xml:lang="x-mapping" text="marcgt:series diniPublType:other diniPublType2022:EditedCollection" />
+        <label xml:lang="x-hosts" text="series standalone" />
+        <label xml:lang="en" text="Yearbook" />
+      </category>
       <category ID="festschrift">
         <label xml:lang="en" text="Festschrift" />
         <label xml:lang="x-mapping" text="marcgt:festschrift diniPublType:report diniPublType2022:Report" />
@@ -158,6 +151,13 @@
       <label xml:lang="x-mapping" text="marcgt:reporting diniPublType:report diniPublType2022:Report" />
       <label xml:lang="en" text="Report" />
       <label xml:lang="it" text="Rapporto" />
+      <category ID="project_report">
+        <label xml:lang="x-hosts" text="standalone" />
+        <label xml:lang="x-mapping" text="marcgt:reporting diniPublType:report diniPublType2022:Report" />
+        <label xml:lang="en" text="Project report" />
+        <label xml:lang="de" text="Projektbericht" />
+        <label xml:lang="it" text="Relazione di progetto" />
+      </category>
       <category ID="research_results">
         <label xml:lang="x-hosts" text="standalone" />
         <label xml:lang="x-mapping" text="marcgt:reporting diniPublType:report diniPublType2022:Report" />
@@ -193,6 +193,13 @@
       <label xml:lang="en" text="Teaching Resource" />
       <label xml:lang="x-mapping" text="marcgt:instruction diniPublType:CourseMaterial diniPublType2022:CourseMaterial" />
       <label xml:lang="it" text="Materiale didattico" />
+      <category ID="lecture">
+        <label xml:lang="x-hosts" text="standalone" />
+        <label xml:lang="de" text="Vorlesung" />
+        <label xml:lang="x-mapping" text="marcgt:series diniPublType:lecture diniPublType2022:Lecture" />
+        <label xml:lang="en" text="Lecture" />
+        <label xml:lang="it" text="Lezione" />
+      </category>
       <category ID="lecture_resource">
         <label xml:lang="x-hosts" text="standalone lecture" />
         <label xml:lang="x-mapping" text="marcgt:instruction diniPublType:CourseMaterial diniPublType2022:CourseMaterial" />
@@ -209,11 +216,18 @@
       </category>
     </category>
     <category ID="book">
-      <label xml:lang="it" text="Libro" />
-      <label xml:lang="de" text="Buch" />
+      <label xml:lang="it" text="Monografia" />
+      <label xml:lang="de" text="Monographie" />
       <label xml:lang="x-mapping" text="marcgt:book diniPublType:book diniPublType2022:Book" />
       <label xml:lang="x-hosts" text="series standalone" />
-      <label xml:lang="en" text="Book" />
+      <label xml:lang="en" text="Monograph" />
+    </category>
+    <category ID="working_paper">
+      <label xml:lang="it" text="Working Paper" />
+      <label xml:lang="de" text="Working Paper" />
+      <label xml:lang="en" text="Working Paper" />
+      <label xml:lang="x-hosts" text="standalone" />
+      <label xml:lang="x-mapping" text="marcgt:series diniPublType:other diniPublType2022:workingPaper" />
     </category>
     <category ID="journal">
       <label xml:lang="x-hosts" text="standalone" />
@@ -262,6 +276,13 @@
         <label xml:lang="x-mapping" text="marcgt:computer_program diniPublType:Software diniPublType2022:Software" />
         <label xml:lang="de" text="Software" />
       </category>
+      <category ID="raw_data">
+        <label xml:lang="x-hosts" text="standalone" />
+        <label xml:lang="de" text="Rohdaten" />
+        <label xml:lang="en" text="Raw Data" />
+        <label xml:lang="it" text="Dati" />
+        <label xml:lang="x-mapping" text="marcgt:database diniPublType:ResearchData diniPublType2022:ResearchData" />
+      </category>
     </category>
     <category ID="patent">
       <label xml:lang="x-hosts" text="standalone" />
@@ -270,12 +291,33 @@
       <label xml:lang="x-mapping" text="marcgt:patent diniPublType:patent diniPublType2022:Patent" />
       <label xml:lang="en" text="Patent" />
     </category>
+    <category ID="speech">
+      <label xml:lang="en" text="Lecture / Speech" />
+      <label xml:lang="it" text="Conferenza" />
+      <label xml:lang="x-mapping" text="marcgt:article diniPublType:other diniPublType2022:Other" />
+      <label xml:lang="de" text="Vortrag" />
+      <label xml:lang="x-hosts" text="proceedings standalone" />
+    </category>
+    <category ID="presentation">
+      <label xml:lang="de" text="Präsentation " />
+      <label xml:lang="en" text="Presentation" />
+      <label xml:lang="it" text="Presentatione" />
+      <label xml:lang="x-hosts" text="standalone" />
+      <label xml:lang="x-mapping" text="marcgt:article diniPublType:other diniPublType2022:Other" />
+    </category>
     <category ID="poster">
       <label xml:lang="en" text="Poster" />
       <label xml:lang="it" text="Locandina" />
       <label xml:lang="de" text="Poster" />
       <label xml:lang="x-mapping" text="marcgt:technical_drawing diniPublType:ResearchData diniPublType2022:ConferencePoster" />
       <label xml:lang="x-hosts" text="proceedings standalone" />
+    </category>
+    <category ID="exhibition">
+      <label xml:lang="en" text="Exhibition" />
+      <label xml:lang="it" text="Esposizione" />
+      <label xml:lang="de" text="Austellung" />
+      <label xml:lang="x-mapping" text="marcgt:article diniPublType:other diniPublType2022:Other" />
+      <label xml:lang="x-hosts" text="standalone" />
     </category>
     <category ID="audio">
       <label xml:lang="en" text="Audio file" />
@@ -304,13 +346,6 @@
       <label xml:lang="de" text="Sendung" />
       <label xml:lang="en" text="Broadcasting" />
       <label xml:lang="x-mapping" text="marcgt:videorecording diniPublType:report diniPublType2022:Report" />
-    </category>
-    <category ID="lecture">
-      <label xml:lang="x-hosts" text="standalone" />
-      <label xml:lang="de" text="Vorlesung" />
-      <label xml:lang="x-mapping" text="marcgt:series diniPublType:lecture diniPublType2022:Lecture" />
-      <label xml:lang="en" text="Lecture" />
-      <label xml:lang="it" text="Lezione" />
     </category>
   </categories>
 </mycoreclass>
