@@ -43,22 +43,13 @@
         </div>
       </div>
 
-      <!-- derzeit nicht gewünscht, siehe FDRSPK-23
+      <!-- derzeit nicht gewünscht, siehe FDRSPK-23 -->
 
-      <div id="more_options_toggle" class="row">
-        <div class="col-sm-9 col-lg-10">
-          <span id="more_options_trigger">
-            <span id="more_options_label">weitere Optionen anzeigen</span>
-            <span id="more_options_button" class="fa fa-chevron-up"></span>
-          </span>
-        </div>
-      </div>
-
-      <div id="more_options_box" class="row form-group">
-        <h4>Publikation aus anderen Datenquellen importieren</h4>
+      <div class="form-group pt-3">
+        <h3>Publikation aus anderen Datenquellen importieren</h3>
         <div class="row form-group">
-          <label class="col-sm-3 col-lg-2 control-label">
-            <select name="type">
+          <label class="col-sm-3 col-lg-2 control-label mb-1">
+            <select name="type" class="form-control">
               <option value="doi">DOI</option>
               <option value="isbn">ISBN</option>
             </select>
@@ -68,7 +59,7 @@
           </div>
         </div>
       </div>
-      -->
+
       <!-- submit -->
       <div class="row form-group">
         <div class="col-sm-5 col-md-4">
