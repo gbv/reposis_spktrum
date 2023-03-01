@@ -105,6 +105,30 @@
     <xed:validate xpath="//mods:mods/mods:classification[@authority='ddc'][@displayLabel='ddc']" required="true" i18n="project.validation.ddc"
                   display="global" />-->
   </xed:template>
-  
+
+  <xed:template id="language">
+    <xed:repeat xpath="mods:language" max="15">
+      <div class="form-group row required {$xed-validation-marker}">
+        <label class="col-md-3 col-form-label text-right">
+          <xed:output i18n="mir.language" />
+        </label>
+        <div class="col-md-6">
+          <xed:bind xpath="mods:languageTerm[@authority='rfc5646'][@type='code']" initially="">
+            <div class="controls">
+              <select class="form-control form-control-inline mir-form__js-select--large">
+                <option value="">
+                  <xed:output i18n="mir.select" />
+                </option>
+                  <xed:include uri="xslStyle:items2options:classification:editor:-1:children:rfc5646" />
+              </select>
+            </div>
+          </xed:bind>
+        </div>
+        <mir:help-pmud help-text="{i18n:mir.help.language}" pmud="true" />
+      </div>
+    </xed:repeat>
+    <xed:validate xpath="//mods:mods/mods:language/mods:languageTerm[@authority='rfc5646'][@type='code']" required="true" i18n="mir.validation.language"
+                  display="global" />
+  </xed:template>
 
 </xed:template>
