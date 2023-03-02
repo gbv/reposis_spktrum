@@ -217,7 +217,7 @@
     </category>
     <category ID="book">
       <label xml:lang="it" text="Monografia" />
-      <label xml:lang="de" text="Monographie" />
+      <label xml:lang="de" text="Monografie" />
       <label xml:lang="x-mapping" text="marcgt:book diniPublType:book diniPublType2022:Book" />
       <label xml:lang="x-hosts" text="series standalone" />
       <label xml:lang="en" text="Monograph" />
@@ -226,7 +226,7 @@
       <label xml:lang="it" text="Working Paper" />
       <label xml:lang="de" text="Working Paper" />
       <label xml:lang="en" text="Working Paper" />
-      <label xml:lang="x-hosts" text="standalone" />
+      <label xml:lang="x-hosts" text="standalone working_paper_series" />
       <label xml:lang="x-mapping" text="marcgt:series diniPublType:other diniPublType2022:workingPaper" />
     </category>
     <category ID="journal">
@@ -249,6 +249,13 @@
       <label xml:lang="x-mapping" text="marcgt:series diniPublType:other diniPublType2022:Other" />
       <label xml:lang="de" text="Serie" />
       <label xml:lang="it" text="Collana" />
+      <category ID="working_paper_series">
+        <label xml:lang="x-hosts" text="standalone" />
+        <label xml:lang="en" text="Working Paper Series" />
+        <label xml:lang="x-mapping" text="marcgt:series diniPublType:other diniPublType2022:Other" />
+        <label xml:lang="de" text="Working Paper Series" />
+        <label xml:lang="it" text="Working Paper Series" />
+      </category>
     </category>
     <category ID="blog">
       <label xml:lang="x-hosts" text="standalone" />
@@ -312,10 +319,10 @@
       <label xml:lang="x-mapping" text="marcgt:technical_drawing diniPublType:ResearchData diniPublType2022:ConferencePoster" />
       <label xml:lang="x-hosts" text="proceedings standalone" />
     </category>
-    <category ID="exhibition">
-      <label xml:lang="en" text="Exhibition" />
-      <label xml:lang="it" text="Esposizione" />
-      <label xml:lang="de" text="Austellung" />
+    <category ID="exhibition_resources">
+      <label xml:lang="en" text="Exhibition resources" />
+      <label xml:lang="it" text="Risorse del Esposizione" />
+      <label xml:lang="de" text="Austellungsmaterial" />
       <label xml:lang="x-mapping" text="marcgt:article diniPublType:other diniPublType2022:Other" />
       <label xml:lang="x-hosts" text="standalone" />
     </category>
