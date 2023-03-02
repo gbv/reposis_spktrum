@@ -32,6 +32,9 @@
             <!-- Institution -->
               <mir:template name="selectInput" xpath="condition[@field='category'][1]/@value" id="inputInst1" i18n="editor.search.mir.institute"
                 tooltip="editor.search.mir.institute.tooltip" uri="xslStyle:items2options:classification:editorComplete:-1:children:mir_institutes" />
+            <!-- Language -->
+              <mir:template name="selectInput" xpath="condition[@field='category.top'][2]/@value" id="inputLanguage1" i18n="editor.search.project.language"
+                tooltip="editor.search.project.language.tooltip" uri="xslStyle:items2options:classification:editorComplete:-1:noEmptyLeaves:children:rfc5646" />
             <!--Fulltext -->
               <div class="form-group row">
                 <label for="inputFulltext1" class="col-md-3 col-form-label text-right">
