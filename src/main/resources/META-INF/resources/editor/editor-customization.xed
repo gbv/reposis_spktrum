@@ -79,9 +79,95 @@
   
   <!-- ========== spktrum specific templates ========== -->
 
+  <xed:template id="genres.exhibition_resources">
+    <xed:include ref="genres.report.common" />
+  </xed:template>
+
+  <xed:template id="genres.presentation">
+    <xed:include ref="title" />
+    <xed:include ref="subtitle" />
+    <xed:if test="$host='standalone'">
+      <xed:include ref="conference" />
+    </xed:if>
+    <xed:include ref="author.repeated" />
+    <xed:if test="$host='standalone'">
+      <xed:include ref="year.issued" />
+      <xed:include ref="place" />
+    </xed:if>
+    <xed:include ref="language" />
+    <xed:include ref="project.ddc.repeat" />
+    <xed:include ref="subject.simple" />
+    <xed:include ref="abstract.simple" />
+    <xed:include ref="rights" />
+    <xed:include ref="institutes" />
+    <xed:include ref="comment" />
+  </xed:template>
+
+  <xed:template id="genres.project_report">
+    <xed:include ref="genres.report.common" />
+  </xed:template>
+
+  <xed:template id="genres.raw_data">
+    <xed:include ref="title" />
+    <xed:include ref="research.data.person.repeated" />
+    <xed:include ref="openAIRE" />
+    <xed:include ref="research.data.date.repeated" />
+    <xed:include ref="type.of.resource" />
+    <xed:include ref="language" />
+    <xed:include ref="identifier.managed" />
+    <xed:include ref="doi.handle.urn.repeated" />
+    <xed:include ref="project.ddc.repeat" />
+    <xed:include ref="subject.simple" />
+    <xed:include ref="abstract.simple" />
+    <xed:include ref="rights" />
+    <xed:include ref="embargo.datetimepicker" />
+    <xed:include ref="copyrightMD" />
+    <xed:include ref="access" />
+    <xed:include ref="physical.description.note" />
+    <xed:include ref="cartographics" />
+    <xed:include ref="related.item.link" />
+    <xed:include ref="institutes" />
+    <xed:include ref="comment" />
+  </xed:template>
+
+  <xed:template id="genres.software">
+    <xed:include ref="title" />
+    <xed:include ref="research.data.person.repeated" />
+    <xed:include ref="openAIRE" />
+    <xed:include ref="research.data.date.repeated" />
+    <xed:include ref="type.of.resource" />
+    <xed:include ref="language" />
+    <xed:include ref="identifier.managed" />
+    <xed:include ref="doi.handle.urn.repeated" />
+    <xed:include ref="project.ddc.repeat" />
+    <xed:include ref="subject.simple" />
+    <xed:include ref="abstract.simple" />
+    <xed:include ref="rights" />
+    <xed:include ref="embargo.datetimepicker" />
+    <xed:include ref="copyrightMD" />
+    <xed:include ref="access" />
+    <xed:include ref="physical.description.note" />
+    <xed:include ref="cartographics" />
+    <xed:include ref="related.item.link" />
+    <xed:include ref="institutes" />
+    <xed:include ref="comment" />
+  </xed:template>
+
+  <xed:template id="genres.working_paper">
+    <xed:include ref="title.original" />
+    <xed:include ref="author.repeated" />
+    <xed:include ref="genres.book.common" />
+  </xed:template>
+
   <xed:template id="genres.working_paper_series">
     <xed:include ref="title" />
     <xed:include ref="genres.journal.common" />
+  </xed:template>
+
+  <xed:template id="genres.yearbook">
+    <xed:include ref="title.original" />
+    <xed:include ref="editor.honoree.repeated" />
+    <xed:include ref="genres.book.common" />
   </xed:template>
   
   <!-- ========== spktrum specific field templates ========== -->
