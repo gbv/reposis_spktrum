@@ -78,6 +78,11 @@
   </xed:modify>
   
   <!-- ========== spktrum specific templates ========== -->
+
+  <xed:template id="genres.working_paper_series">
+    <xed:include ref="title" />
+    <xed:include ref="genres.journal.common" />
+  </xed:template>
   
   <!-- ========== spktrum specific field templates ========== -->
 
