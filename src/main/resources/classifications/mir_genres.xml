@@ -322,7 +322,7 @@
     <category ID="exhibition_resources">
       <label xml:lang="en" text="Exhibition resources" />
       <label xml:lang="it" text="Risorse del Esposizione" />
-      <label xml:lang="de" text="Austellungsmaterial" />
+      <label xml:lang="de" text="Ausstellungsmaterial" />
       <label xml:lang="x-mapping" text="marcgt:article diniPublType:other diniPublType2022:Other" />
       <label xml:lang="x-hosts" text="standalone" />
     </category>
