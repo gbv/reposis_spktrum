@@ -44,9 +44,13 @@
     <label xml:lang="de">Suche</label>
     <label xml:lang="en">Search</label>
     <group id="search">
-      <item href="/servlets/solr/select?q=objectType:mods&amp;rows=59&amp;start=0&amp;sort=created+desc" type="intern" replaceMenu="false" constrainPopUp="false">
+      <item href="/servlets/solr/findPublic?&amp;sort=created+desc" type="intern" replaceMenu="false" constrainPopUp="false">
           <label xml:lang="de">Neueste Dokumente</label>
           <label xml:lang="en">Recent documents</label>
+      </item>
+      <item href="/servlets/solr/find?&amp;sort=created+desc" type="intern" replaceMenu="false" constrainPopUp="false">
+        <label xml:lang="de">Neueste Dokumente</label>
+        <label xml:lang="en">Recent documents</label>
       </item>
       <item href="/servlets/solr/select?q=createdby:USERNAME" type="intern" replaceMenu="false" constrainPopUp="false">
         <label xml:lang="de">Eigene Dokumente</label>

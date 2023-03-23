@@ -84,7 +84,7 @@
       $( document ).ready(function() {
       $.ajax({
       type: "GET",
-      url: "../api/v1/search?q=objectType:mods AND state:published&amp;rows=0&amp;wt=json&amp;json.wrf=?",
+      url: "../api/v1/searchPublic?q=objectType:mods AND state:published&amp;rows=0&amp;wt=json&amp;json.wrf=?",
       dataType: "jsonp",
       success: function (data) {
       $('#project-searchInput').attr('placeholder', 'Suche in ' + $.number(data.response.numFound,0, ',', '.') +

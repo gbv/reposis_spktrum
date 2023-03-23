@@ -52,6 +52,11 @@
             <select name="type" class="form-control">
               <option value="doi">DOI</option>
               <option value="isbn">ISBN</option>
+              <option value="ppn">K10plus-PPN</option>
+              <option value="scopus">Scopus-ID</option>
+              <option value="ieee">IEEE-ID</option>
+              <option value="issn">ISSN</option>
+              <option value="zdbid">ZDB-ID</option>
             </select>
           </label>
           <div class="col-sm-7 col-md-5 col-lg-4">
