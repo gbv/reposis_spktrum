@@ -235,6 +235,13 @@
       <label xml:lang="de" text="Zeitschrift" />
       <label xml:lang="en" text="Journal" />
       <label xml:lang="it" text="Rivista" />
+      <category ID="issue">
+        <label xml:lang="en" text="Single Issue" />
+        <label xml:lang="de" text="Einzelheft" />
+        <label xml:lang="it" text="Numero singolo" />
+        <label xml:lang="x-hosts" text="journal" />
+        <label xml:lang="x-mapping" text="marcgt:issue diniPublType:PeriodicalPart diniPublType2022:PeriodicalPart" />
+      </category>
     </category>
     <category ID="newspaper">
       <label xml:lang="x-hosts" text="standalone" />
@@ -255,6 +262,13 @@
         <label xml:lang="x-mapping" text="marcgt:series diniPublType:other diniPublType2022:Other" />
         <label xml:lang="de" text="Working Paper Series" />
         <label xml:lang="it" text="Working Paper Series" />
+      </category>
+      <category ID="issue_series">
+        <label xml:lang="en" text="Single Issue" />
+        <label xml:lang="de" text="Einzelheft" />
+        <label xml:lang="it" text="Numero singolo" />
+        <label xml:lang="x-hosts" text="series" />
+        <label xml:lang="x-mapping" text="marcgt:issue diniPublType:PeriodicalPart diniPublType2022:PeriodicalPart" />
       </category>
     </category>
     <category ID="blog">
