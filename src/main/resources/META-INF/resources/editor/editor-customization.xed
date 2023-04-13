@@ -127,7 +127,7 @@
     <xed:include ref="abstract.simple" />
     <xed:include ref="embargo.datetimepicker" />
     <xed:include ref="rights" />
-    <xed:include ref="institutes" />
+    <xed:include ref="institutes.repeat" />
     <xed:include ref="comment" />
   </xed:template>
 
