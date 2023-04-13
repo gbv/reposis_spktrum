@@ -5,76 +5,106 @@
   <xed:modify ref="admin.fields">
     <xed:include ref="project.ddc.repeat"                after="sdnb.repeat" />
     <xed:remove  ref="sdnb.repeat" />
+    <xed:include ref="institutes.repeat"                 after="institutes" />
+    <xed:remove  ref="institutes" />
   </xed:modify>
   
   <xed:modify ref="genres.book.common">
     <xed:include ref="project.ddc.repeat"                after="sdnb.repeat" />
     <xed:remove  ref="sdnb.repeat" />
+    <xed:include ref="institutes.repeat"                 after="institutes" />
+    <xed:remove  ref="institutes" />
   </xed:modify>
   
   <xed:modify ref="genres.journal.common">
     <xed:include ref="project.ddc.repeat"                after="sdnb.repeat" />
     <xed:remove  ref="sdnb.repeat" />
+    <xed:include ref="institutes.repeat"                 after="institutes" />
+    <xed:remove  ref="institutes" />
   </xed:modify>
   
   <xed:modify ref="genres.thesis.common">
     <xed:include ref="project.ddc.repeat"                after="sdnb.repeat" />
     <xed:remove  ref="sdnb.repeat" />
+    <xed:include ref="institutes.repeat"                 after="institutes" />
+    <xed:remove  ref="institutes" />
   </xed:modify>
   
   <xed:modify ref="genres.teaching_material">
     <xed:include ref="project.ddc.repeat"                after="sdnb.repeat" />
     <xed:remove  ref="sdnb.repeat" />
+    <xed:include ref="institutes.repeat"                 after="institutes" />
+    <xed:remove  ref="institutes" />
   </xed:modify>
   
   <xed:modify ref="genres.publication.common">
     <xed:include ref="project.ddc.repeat"                after="sdnb.repeat" />
     <xed:remove  ref="sdnb.repeat" />
+    <xed:include ref="institutes.repeat"                 after="institutes" />
+    <xed:remove  ref="institutes" />
   </xed:modify>
   
   <xed:modify ref="genres.report.common">
     <xed:include ref="project.ddc.repeat"                after="sdnb.repeat" />
     <xed:remove  ref="sdnb.repeat" />
+    <xed:include ref="institutes.repeat"                 after="institutes" />
+    <xed:remove  ref="institutes" />
   </xed:modify>
   
   <xed:modify ref="genres.entry">
     <xed:include ref="project.ddc.repeat"                after="sdnb.repeat" />
     <xed:remove  ref="sdnb.repeat" />
+    <xed:include ref="institutes.repeat"                 after="institutes" />
+    <xed:remove  ref="institutes" />
   </xed:modify>
   
   <xed:modify ref="genres.preface">
     <xed:include ref="project.ddc.repeat"                after="sdnb.repeat" />
     <xed:remove  ref="sdnb.repeat" />
+    <xed:include ref="institutes.repeat"                 after="institutes" />
+    <xed:remove  ref="institutes" />
   </xed:modify>
   
   <xed:modify ref="genres.interview">
     <xed:include ref="project.ddc.repeat"                after="sdnb.repeat" />
     <xed:remove  ref="sdnb.repeat" />
+    <xed:include ref="institutes.repeat"                 after="institutes" />
+    <xed:remove  ref="institutes" />
   </xed:modify>
   
   <xed:modify ref="genres.speech">
     <xed:include ref="project.ddc.repeat"                after="sdnb.repeat" />
     <xed:remove  ref="sdnb.repeat" />
+    <xed:include ref="institutes.repeat"                 after="institutes" />
+    <xed:remove  ref="institutes" />
   </xed:modify>
   
   <xed:modify ref="genres.poster">
     <xed:include ref="project.ddc.repeat"                after="sdnb.repeat" />
     <xed:remove  ref="sdnb.repeat" />
+    <xed:include ref="institutes.repeat"                 after="institutes" />
+    <xed:remove  ref="institutes" />
   </xed:modify>
   
   <xed:modify ref="genres.av.common">
     <xed:include ref="project.ddc.repeat"                after="sdnb.repeat" />
     <xed:remove  ref="sdnb.repeat" />
+    <xed:include ref="institutes.repeat"                 after="institutes" />
+    <xed:remove  ref="institutes" />
   </xed:modify>
   
   <xed:modify ref="genres.research_data">
     <xed:include ref="project.ddc.repeat"                after="sdnb.repeat" />
     <xed:remove  ref="sdnb.repeat" />
+    <xed:include ref="institutes.repeat"                 after="institutes" />
+    <xed:remove  ref="institutes" />
   </xed:modify>
   
   <xed:modify ref="genres.lecture">
     <xed:include ref="project.ddc.repeat"                after="sdnb.repeat" />
     <xed:remove  ref="sdnb.repeat" />
+    <xed:include ref="institutes.repeat"                 after="institutes" />
+    <xed:remove  ref="institutes" />
   </xed:modify>
   
   <!-- ========== spktrum specific templates ========== -->
@@ -121,7 +151,7 @@
     <xed:include ref="subject.simple" />
     <xed:include ref="abstract.simple" />
     <xed:include ref="rights" />
-    <xed:include ref="institutes" />
+    <xed:include ref="institutes.repeat" />
     <xed:include ref="comment" />
   </xed:template>
 
@@ -160,7 +190,7 @@
     <xed:include ref="physical.description.note" />
     <xed:include ref="cartographics" />
     <xed:include ref="related.item.link" />
-    <xed:include ref="institutes" />
+    <xed:include ref="institutes.repeat" />
     <xed:include ref="comment" />
   </xed:template>
 
@@ -183,7 +213,7 @@
     <xed:include ref="physical.description.note" />
     <xed:include ref="cartographics" />
     <xed:include ref="related.item.link" />
-    <xed:include ref="institutes" />
+    <xed:include ref="institutes.repeat" />
     <xed:include ref="comment" />
   </xed:template>
 
