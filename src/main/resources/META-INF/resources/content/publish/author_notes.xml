@@ -1,45 +1,192 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MyCoReWebPage><section xml:lang="de" title="Hinweise für Publizierende"><div class="row">
-<div class="col-md-12">
-<h2>Hinweise für Publizierende</h2>
+<MyCoReWebPage>
+	<section xml:lang="de" title="Hinweise für Publizierende">
+		<div class="row">
+			<div class="col-md-12">
+				<h2>Hinweise für Publizierende</h2>
 
-<h3>Registrierung</h3>
+				<h3>Registrierung</h3>
 
-<p>Vor der erstmaligen Nutzung des Publikationsservice müssen Sie sich zunächst registrieren. Dazu vervollständigen Sie bitte das <a href="../../authorization/registration.xed">Registrierungsformular</a>. Nach erfolgter Registrierung haben Sie als Inhaber*in der jeweiligen Urheberrechte die Möglichkeit eigene Beiträge, die wissenschaftlichen Standards entsprechen, auf SPKtrum zu veröffentlichen.</p>
+				<p>Vor der erstmaligen Nutzung des Publikationsservice müssen Sie sich zunächst registrieren. Dazu
+					vervollständigen Sie bitte das <a href="../../authorization/registration.xed">Registrierungsformular</a>. Nach
+					erfolgter Registrierung haben Sie als Inhaber*in der jeweiligen Urheberrechte die Möglichkeit eigene Beiträge,
+					die wissenschaftlichen Standards entsprechen, auf SPKtrum zu veröffentlichen.
+				</p>
 
-<h3>Dokumenten-Upload</h3>
+				<h3>Dokumenten-Upload</h3>
 
-<p>Den Publikationsvorgang starten Sie durch Ihre <a href="../../servlets/MCRLoginServlet?url=../content/publish/author_notes.xml">Anmeldung</a> auf SPKtrum. Nach Erfassung und Speicherung der bibliographischen Metadaten Ihres Beitrags laden Sie bitte die zugehörige Datei(en) über die Menüfelder "Aktionen" und "Hinzufügen eines Datenobjektes" in das Repositorium. Bitte wählen Sie nach Möglichkeit offene, nicht-proprietäre oder weit verbreitete Dateiformate aus, z.B. PDF (bevorzugt als PDF/A) oder MP3/4, und achten Sie darauf, dass die Dateien nicht passwort- und nicht schreibgeschützt sind.</p>
+				<p>Den Publikationsvorgang starten Sie durch Ihre
+					<a href="../../servlets/MCRLoginServlet?url=../content/publish/author_notes.xml">Anmeldung</a>
+					auf SPKtrum. Nach Erfassung und Speicherung der bibliographischen Metadaten Ihres Beitrags laden Sie bitte
+					die zugehörige Datei(en) über die Menüfelder "Aktionen" und "Hinzufügen eines Datenobjektes" in das
+					Repositorium. Bitte wählen Sie nach Möglichkeit offene, nicht-proprietäre oder weit verbreitete Dateiformate
+					aus, z.B. PDF (bevorzugt als PDF/A) oder MP3/4, und achten Sie darauf, dass die Dateien nicht passwort- und
+					nicht schreibgeschützt sind.
+				</p>
 
-<h3>Interne Qualitätssicherung</h3>
+				<h3>Interne Qualitätssicherung</h3>
 
-<p>Bitte beachten Sie, dass die von Ihnen zur Veröffentlichung vorgesehenen Beiträge erst nach formaler und inhaltlicher Prüfung auf SPKtrum freigeschaltet werden. Insbesondere wenn es sich um Erstveröffentlichungen oder Zweitveröffentlichungen ohne frühere qualitätsgesicherte Publikationsverfahren handelt, kann ein interner Review-Prozess zur Qualitätssicherung durchgeführt werden. Sofern ein solches Verfahren eingeleitet wird, werden Sie hierüber und über dessen Ergebnis zeitnah informiert werden.</p>
+				<p>Bitte beachten Sie, dass die von Ihnen zur Veröffentlichung vorgesehenen Beiträge erst nach formaler und
+					inhaltlicher Prüfung auf SPKtrum freigeschaltet werden. Insbesondere wenn es sich um Erstveröffentlichungen
+					oder Zweitveröffentlichungen ohne frühere qualitätsgesicherte Publikationsverfahren handelt, kann ein interner
+					Review-Prozess zur Qualitätssicherung durchgeführt werden. Sofern ein solches Verfahren eingeleitet wird,
+					werden Sie hierüber und über dessen Ergebnis zeitnah informiert werden.
+				</p>
 
-<h3>Urheber- und Nutzungsrechte</h3>
+				<h3>Urheber- und Nutzungsrechte</h3>
 
-<p>Sie tragen die Verantwortung dafür, dass keine Urheberrechte oder andere Rechte Dritter verletzt werden – etwa im Kontext von Gemeinschaftspublikationen. Mit dem Upload Ihres Dokuments sowie auf Grundlage des Publikationsvertrages wird SPKtrum ein einfaches Nutzungsrecht zur Verbreitung und öffentlichen Zugänglichmachung des Werks im Internet übertragen sowie ergänzend das Recht, insbesondere für Archivierungszwecke Änderungen am jeweiligen Dateiformat vorzunehmen.</p>
+				<p>Sie tragen die Verantwortung dafür, dass keine Urheberrechte oder andere Rechte Dritter verletzt werden –
+					etwa im Kontext von Gemeinschaftspublikationen. Mit dem Upload Ihres Dokuments sowie auf Grundlage des
+					Publikationsvertrages wird SPKtrum ein einfaches Nutzungsrecht zur Verbreitung und öffentlichen
+					Zugänglichmachung des Werks im Internet übertragen sowie ergänzend das Recht, insbesondere für
+					Archivierungszwecke Änderungen am jeweiligen Dateiformat vorzunehmen.
+				</p>
 
-<h3>Publikationsvertrag</h3>
+				<h3>Publikationsvertrag</h3>
 
-<p>Den vollständig ausgefüllten und mit Ihrer elektronischen Unterschrift versehenen Publikationsvertrag im Dateiformat PDF senden Sie bitte per E-Mail an: <a class="external-link" href="mailto:SPKtrum@hv.spk-berlin.de" target="_blank">SPKtrum@hv.spk-berlin.de</a>.</p>
+				<p>Den vollständig ausgefüllten und mit Ihrer elektronischen Unterschrift versehenen Publikationsvertrag im
+					Dateiformat PDF senden Sie bitte per E-Mail an:
+					<a class="external-link" href="mailto:SPKtrum@hv.spk-berlin.de" target="_blank">SPKtrum@hv.spk-berlin.de</a>.
+				</p>
 
-<h3>Erstveröffentlichungen</h3>
+				<h3>Erstveröffentlichungen</h3>
 
-<p>Handelt es sich bei dem zur Publikation auf SPKtrum vorgesehenen Dokument um eine Erstveröffentlichung, so verbleibt das ausschließliche Nutzungsrecht auch weiterhin bei Ihnen, weshalb Sie beliebig anderweitig über das von Ihnen geschaffene Werk verfügen können. SPKtrum empfiehlt Ihnen im Interesse der eindeutigen Personenidentifikation die Nutzung der kostenfreien Open Researcher and Contributor ID <a class="external-link" href="https://orcid.org/" target="_blank">(ORCID)</a> und unterstützt Sie auf Wunsch beim Upload Ihrer Beiträge.</p>
+				<p>Handelt es sich bei dem zur Publikation auf SPKtrum vorgesehenen Dokument um eine Erstveröffentlichung, so
+					verbleibt das ausschließliche Nutzungsrecht auch weiterhin bei Ihnen, weshalb Sie beliebig anderweitig über
+					das von Ihnen geschaffene Werk verfügen können. SPKtrum empfiehlt Ihnen im Interesse der eindeutigen
+					Personenidentifikation die Nutzung der kostenfreien Open Researcher and Contributor ID
+					<a class="external-link" href="https://orcid.org/" target="_blank">(ORCID)</a>
+					und unterstützt Sie auf Wunsch
+					beim Upload Ihrer Beiträge.
+				</p>
 
-<h3>Inhaltserschließung</h3>
+				<h3>Inhaltserschließung</h3>
 
-<p>Alle auf SPKtrum veröffentlichten Inhalte werden mit Suchmaschinentechnologie im Volltext recherchierbar gemacht. Zur Gewährleistung eines thematischen Browsings aller Inhalte von SPKtrum sind Sie zudem gebeten, Ihr Werk mit beschreibenden Metadaten systematisch zu erschließen. Hierzu haben Sie die Möglichkeit, den Inhalt Ihres Beitrags sowohl mit frei wählbaren als auch mit normierten Schlagworten zu umschreiben. Bitte erfassen Sie jedes Schlagwort separat und überprüfen Sie – sofern Sie normiertes Vokabular verwenden wollen – via "Suchen" dessen Konformität mit der Terminologie der im Hintergrund eingebundenen <a class="external-link" href="https://www.dnb.de/DE/Professionell/Standardisierung/GND/gnd.html" target="_blank">Gemeinsamen Normdatei der Deutschen Nationalbibliothek (GND)</a>. Bitte nutzen Sie die bevorzugte Singularform der GND-Schlagwörter.</p>
+				<p>Alle auf SPKtrum veröffentlichten Inhalte werden mit Suchmaschinentechnologie im Volltext recherchierbar
+					gemacht. Zur Gewährleistung eines thematischen Browsings aller Inhalte von SPKtrum sind Sie zudem gebeten, Ihr
+					Werk mit beschreibenden Metadaten systematisch zu erschließen. Hierzu haben Sie die Möglichkeit, den Inhalt
+					Ihres Beitrags sowohl mit frei wählbaren als auch mit normierten Schlagworten zu umschreiben. Bitte erfassen
+					Sie jedes Schlagwort separat und überprüfen Sie – sofern Sie normiertes Vokabular verwenden wollen – via
+					"Suchen" dessen Konformität mit der Terminologie der im Hintergrund eingebundenen
+					<a class="external-link" href="https://www.dnb.de/DE/Professionell/Standardisierung/GND/gnd.html"
+						 target="_blank">
+						Gemeinsamen Normdatei der Deutschen Nationalbibliothek (GND)</a>. Bitte nutzen Sie die bevorzugte
+					Singularform der GND-Schlagwörter.
+				</p>
 
-<h3>Ablehnung, Aktualisierung und Löschung von Beiträgen</h3>
+				<h3>Ablehnung, Aktualisierung und Löschung von Beiträgen</h3>
 
-<p>Die Beitreiber von SPKtrum behalten es sich vor, die Registrierung wie auch die Veröffentlichung einzelner Inhalte in begründeten Ausnahmefällen zu verweigern. Auch ist eine Löschung sowie jede nachträgliche Veränderung von auf SPKtrum veröffentlichten Dokumenten nicht vorgesehen.<br />
-Selbstverständlich steht es Ihnen aber frei, bereits auf SPKtrum veröffentlichten Beiträgen durch Upload einer aktualisierten Version erneut zu publizieren, wenn inhaltliche Modifikationen dies erfordern.<br />
-Sollte – etwa aus strafrechtlichen oder urheberrechtlichen Gründen – die öffentliche Zugänglichkeit eines bereits publizierten Beitrags nicht erlaubt sein, so wird der Zugriff auf ihn gesperrt und dies unter seinen persistenten Webadressen bekanntgegeben.</p>
+				<p>Die Beitreiber von SPKtrum behalten es sich vor, die Registrierung wie auch die Veröffentlichung einzelner
+					Inhalte in begründeten Ausnahmefällen zu verweigern. Auch ist eine Löschung sowie jede nachträgliche
+					Veränderung von auf SPKtrum veröffentlichten Dokumenten nicht vorgesehen.
+					<br/>
+					Selbstverständlich steht es Ihnen aber frei, bereits auf SPKtrum veröffentlichten Beiträgen durch Upload einer
+					aktualisierten Version erneut zu publizieren, wenn inhaltliche Modifikationen dies erfordern.
+					<br/>
+					Sollte – etwa aus strafrechtlichen oder urheberrechtlichen Gründen – die öffentliche Zugänglichkeit eines
+					bereits publizierten Beitrags nicht erlaubt sein, so wird der Zugriff auf ihn gesperrt und dies unter seinen
+					persistenten Webadressen bekanntgegeben.
+				</p>
 
-<h3>Kontaktdaten </h3>
+				<h3>Kontaktdaten</h3>
 
-<p>Sollten Sie weitere Rückfragen haben oder technische Schwierigkeiten während des Registrierungsvorgangs auftreten, so stehen wir Ihnen jederzeit beratend zur Seite. Hier finden Sie unser <a href="../below/contact.xed">Kontaktformular</a>.</p>
-</div>
-</div>
-</section><meta><log lastEditor="test_admin" date="2023-01-23" time="15:28" /></meta></MyCoReWebPage>
+				<p>Sollten Sie weitere Rückfragen haben oder technische Schwierigkeiten während des Registrierungsvorgangs
+					auftreten, so stehen wir Ihnen jederzeit beratend zur Seite. Hier finden Sie unser
+					<a href="../below/contact.xed">Kontaktformular</a>.
+				</p>
+			</div>
+		</div>
+	</section>
+	<section xml:lang="en" title="Notes for authors">
+		<div class="row">
+			<div class="col-md-12">
+				<h2>Notes for authors</h2>
+
+				<h3>Registration</h3>
+				<p>
+					Before using the publication service for the first time, you must first register. To do so, please complete
+					the <a href="../../authorization/registration.xed">registration form</a>. After registration, you, as the owner
+					of the respective copyrights, have the possibility	to publish your own contributions that meet scientific
+					standards on SPKtrum.
+				</p>
+
+				<h3>Submitting documents</h3>
+				<p>
+					You start the publication process by
+					<a href="../../servlets/MCRLoginServlet?url=../content/publish/author_notes.xml">logging in</a> to SPKtrum.
+					After entering and saving the bibliographic metadata of your contribution, please upload the corresponding
+					file(s) to the repository using the menu fields "Actions" and "Add a file area". If possible, please select
+					open, non-proprietary or widely used file formats, e.g. PDF (preferably as PDF/A) or MP3/4, and make sure
+					that the files are not password protected or read-only.
+				</p>
+
+				<h3>Internal quality assurance</h3>
+				<p>
+					Please note that the contributions you intend to publish will only be released on SPKtrum after formal and
+					content-related review. Especially if they are first publications or second publications without previous
+					quality-assured publication procedures, an internal review process may be carried out for quality assurance.
+					If such a process is initiated, you will be informed about it and its outcome in a timely manner.
+				</p>
+
+				<h3>Copyright and rights of use</h3>
+				<p>
+					You are responsible for ensuring that no copyrights or other rights of third parties are infringed - for
+					example in the context of joint publications. With the upload of your document as well as on the basis of the
+					publication contact, SPKtrum is granted a simple right of use for the distribution and public accessibility of
+					the work on the Internet as well as the supplementary right to make changes to the respective file format, in
+					particular for archiving purposes.
+				</p>
+
+				<h3>Publication contract</h3>
+				<p>
+					Please send the publication contract, completed in full and provided with your electronic signature, in PDF
+					file format by e-mail to: <a class="external-link" href="mailto:SPKtrum@hv.spk-berlin.de" target="_blank">SPKtrum@hv.spk-berlin.de</a>
+				</p>
+
+				<h3>First publication</h3>
+				<p>
+					If the document intended for publication on SPKtrum is a first publication, the exclusive right of use
+					remains	with you, which means that you can dispose the work you have created in any other way you wish. In the
+					interest of unique personal identification, SPKtrum recommends to use the free Open Researcher and Contributor
+					ID <a class="external-link" href="https://orcid.org/" target="_blank">(ORCID)</a> and will support you in
+					uploading your contributions if you wish.
+				</p>
+
+				<h3>Content indexing</h3>
+				<p>
+					All content published on SPKtrum is made full-text searchable using search engine technology. To ensure
+					thematic browsing of all content on SPKtrum, you are also asked to systematically enrich your work with descriptive
+					metadata. For this purpose you have the possibility to describe the content of your contribution with freely
+					selectable as well as with standardized keywords. Please enter each keyword separately and check - if you want
+					to use standardized vocabulary - via "Search" its conformity with the terminology of the
+					<a class="external-link" href="https://www.dnb.de/DE/Professionell/Standardisierung/GND/gnd.html" target="_blank">
+						Gemeinsamen Normdatei der Deutschen Nationalbibliothek (GND)</a>integrated in the background. Please use the
+					preferred singular form of the GND keywords.
+				</p>
+
+				<h3>Rejection, update and deletion of contributions</h3>
+				<p>
+					The editors of SPKtrum reserve the right to refuse the registration as well as the publication of individual
+					contents in justified exceptional cases. Also, a deletion as well as any subsequent modification of documents
+					published on SPKtrum is not intended.
+				</p>
+				<p>
+					However, you are of course free to republish contributions already published on SPKtrum by uploading an
+					updated version if modifications to the content make this necessary.
+				</p>
+				<p>
+					If - for example for reasons of criminal law or copyright - public access to an already published
+					contribution is not permitted, access to it will be blocked and this will be announced under its persistent
+					web addresses.
+				</p>
+
+				<h3>Contact details</h3>
+				<p>
+					If you have any further questions or encounter technical difficulties during the registration process, we
+					will be happy to assist you at any time. Please finde here our <a href="../below/contact.xed">contact form</a>.
+				</p>
+			</div>
+		</div>
+	</section>
+	<meta></meta>
+</MyCoReWebPage>

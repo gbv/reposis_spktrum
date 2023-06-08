@@ -1,77 +1,142 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <MyCoReWebPage>
-  <section title="Publizieren" xml:lang="de" />
-  <section title="New publication" xml:lang="en" />
-  <section xml:lang="all">
-    <script src='../../js/mir/select-doctype.js'></script>
-    <h2>Publizieren</h2>
+	<section xml:lang="all">
+		<script src='../../js/mir/select-doctype.js'></script>
+	</section>
+	<section title="Publizieren" xml:lang="de">
 
-    <!-- introduction -->
-    <div class="row">
-      <div class="col-sm-12 col-md-12">
-        <p>
-          Zur Veröffentlichung Ihres Beitrags auf SPKtrum
-          <span>[ˈʃpɛktʁʊm ]</span>
-          ist zunächst die Erfassung
-          seiner bibliographischen Daten erforderlich. Dazu kombinieren Sie bitte aus dem zweiteiligen Auswahlmenu
-          – so im konkreten Fall überhaupt erforderlich – die dem Typus Ihrer Publikation entsprechende
-          Erfassungsmaske. Bitte beachten Sie, dass alle mit einen Asterisk * gekennzeichneten Felder der jeweils
-          gewählten Erfassungsmaske verpflichtend zu befüllen sind. Für jede angemeldete Veröffentlichung übersenden
-          Sie bitte ergänzend einen vollständig ausgefüllten und mit Ihrer elektronischen Unterschrift
-          versehenen
-          <a href="../rights/Publikationsvertrag.pdf">Publikationsvertrag</a>
-          an:
-          <span class="madress">SPKtrum [at] hv.spk-berlin.de</span>
-        </p>
-      </div>
-    </div>
+		<h2>Publizieren</h2>
 
-    <form id="submit_publication" class="form-horizontal" role="form" method="get" action="../../editor/editor-dynamic.xed">
+		<!-- introduction -->
+		<div class="row">
+			<div class="col-sm-12 col-md-12">
+				<p>
+					Zur Veröffentlichung Ihres Beitrags auf SPKtrum
+					<span>[ˈʃpɛktʁʊm ]</span>
+					ist zunächst die Erfassung
+					seiner bibliographischen Daten erforderlich. Dazu kombinieren Sie bitte aus dem zweiteiligen Auswahlmenu
+					– so im konkreten Fall überhaupt erforderlich – die dem Typus Ihrer Publikation entsprechende
+					Erfassungsmaske. Bitte beachten Sie, dass alle mit einen Asterisk * gekennzeichneten Felder der jeweils
+					gewählten Erfassungsmaske verpflichtend zu befüllen sind. Für jede angemeldete Veröffentlichung übersenden
+					Sie bitte ergänzend einen vollständig ausgefüllten und mit Ihrer elektronischen Unterschrift
+					versehenen <a href="../rights/Publikationsvertrag.pdf">Publikationsvertrag</a> an:
+					<span class="madress">SPKtrum [at] hv.spk-berlin.de</span>
+				</p>
+			</div>
+		</div>
 
-      <!-- genre -->
-      <div class="row form-group">
-        <div class="col-sm-7 col-md-5 col-lg-4">
-          <select id="genre" class="form-control" name="genre" size="1"></select>
-        </div>
-      </div>
+		<form id="submit_publication" class="form-horizontal" role="form" method="get"
+					action="../../editor/editor-dynamic.xed">
 
-      <!-- host -->
-      <div class="row form-group">
-        <div class="col-sm-7 col-md-5 col-lg-4">
-          <select id="host" class="form-control" name="host" size="1"></select>
-        </div>
-      </div>
+			<!-- genre -->
+			<div class="row form-group">
+				<div class="col-sm-7 col-md-5 col-lg-4">
+					<select id="genre" class="form-control" name="genre" size="1"></select>
+				</div>
+			</div>
 
-      <!-- derzeit nicht gewünscht, siehe FDRSPK-23 -->
+			<!-- host -->
+			<div class="row form-group">
+				<div class="col-sm-7 col-md-5 col-lg-4">
+					<select id="host" class="form-control" name="host" size="1"></select>
+				</div>
+			</div>
 
-      <div class="form-group pt-3">
-        <h3>Publikation aus anderen Datenquellen importieren</h3>
-        <div class="row form-group">
-          <label class="col-sm-3 col-lg-2 control-label mb-1">
-            <select name="type" class="form-control">
-              <option value="doi">DOI</option>
-              <option value="isbn">ISBN</option>
-              <option value="ppn">K10plus-PPN</option>
-              <option value="scopus">Scopus-ID</option>
-              <option value="ieee">IEEE-ID</option>
-              <option value="issn">ISSN</option>
-              <option value="zdbid">ZDB-ID</option>
-            </select>
-          </label>
-          <div class="col-sm-7 col-md-5 col-lg-4">
-            <input class="form-control" type="text" name="modsId" />
-          </div>
-        </div>
-      </div>
+			<!-- derzeit nicht gewünscht, siehe FDRSPK-23 -->
 
-      <!-- submit -->
-      <div class="row form-group">
-        <div class="col-sm-5 col-md-4">
-          <button type="submit" class="btn btn-primary">Weiter</button>
-        </div>
-      </div>
+			<div class="form-group pt-3">
+				<h3>Publikation aus anderen Datenquellen importieren</h3>
+				<div class="row form-group">
+					<label class="col-sm-3 col-lg-2 control-label mb-1">
+						<select name="type" class="form-control">
+							<option value="doi">DOI</option>
+							<option value="isbn">ISBN</option>
+							<option value="ppn">K10plus-PPN</option>
+							<option value="scopus">Scopus-ID</option>
+							<option value="ieee">IEEE-ID</option>
+							<option value="issn">ISSN</option>
+							<option value="zdbid">ZDB-ID</option>
+						</select>
+					</label>
+					<div class="col-sm-7 col-md-5 col-lg-4">
+						<input class="form-control" type="text" name="modsId"/>
+					</div>
+				</div>
+			</div>
 
-    </form>
-  </section>
+			<!-- submit -->
+			<div class="row form-group">
+				<div class="col-sm-5 col-md-4">
+					<button type="submit" class="btn btn-primary">Weiter</button>
+				</div>
+			</div>
+
+		</form>
+	</section>
+	<section title="New publication" xml:lang="en">
+		<h2>Publizieren</h2>
+
+		<!-- introduction -->
+		<div class="row">
+			<div class="col-sm-12 col-md-12">
+				<p>
+					In order to publish your contribution on SPKtrum <span>[ˈʃpɛktʁʊm ]</span>, it is first necessary to enter
+					your bibliographic data. To	do this, please combine the entry mask corresponding to the type of your
+					publication from the two-part	selection menu – if this is necessary in the specific case. Please note that
+					all fields marked with an asterisk * in the selected entry mask must be filled out. For each registered
+					publication, please also send a	fully completed
+					<a href="../rights/Publikationsvertrag_eng.pdf">publication contract</a> with your electronic signature to:
+					<span class="madress">SPKtrum [at] hv.spk-berlin.de</span>
+				</p>
+			</div>
+		</div>
+
+		<form id="submit_publication" class="form-horizontal" role="form" method="get"
+					action="../../editor/editor-dynamic.xed">
+
+			<!-- genre -->
+			<div class="row form-group">
+				<div class="col-sm-7 col-md-5 col-lg-4">
+					<select id="genre" class="form-control" name="genre" size="1"></select>
+				</div>
+			</div>
+
+			<!-- host -->
+			<div class="row form-group">
+				<div class="col-sm-7 col-md-5 col-lg-4">
+					<select id="host" class="form-control" name="host" size="1"></select>
+				</div>
+			</div>
+
+			<!-- derzeit nicht gewünscht, siehe FDRSPK-23 -->
+
+			<div class="form-group pt-3">
+				<h3>Import publication from other data sources</h3>
+				<div class="row form-group">
+					<label class="col-sm-3 col-lg-2 control-label mb-1">
+						<select name="type" class="form-control">
+							<option value="doi">DOI</option>
+							<option value="isbn">ISBN</option>
+							<option value="ppn">K10plus-PPN</option>
+							<option value="scopus">Scopus-ID</option>
+							<option value="ieee">IEEE-ID</option>
+							<option value="issn">ISSN</option>
+							<option value="zdbid">ZDB-ID</option>
+						</select>
+					</label>
+					<div class="col-sm-7 col-md-5 col-lg-4">
+						<input class="form-control" type="text" name="modsId"/>
+					</div>
+				</div>
+			</div>
+
+			<!-- submit -->
+			<div class="row form-group">
+				<div class="col-sm-5 col-md-4">
+					<button type="submit" class="btn btn-primary">Next</button>
+				</div>
+			</div>
+
+		</form>
+	</section>
 </MyCoReWebPage>

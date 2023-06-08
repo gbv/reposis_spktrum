@@ -78,8 +78,8 @@
       </div>
     </div>
 
-    <div class="jumbotwo"></div>
-    <script src="../js/jquery.number.js"></script>
+    <div class="jumbotwo" />
+    <script src="../js/jquery.number.js" />
     <script>
       $( document ).ready(function() {
       $.ajax({
@@ -89,6 +89,96 @@
       success: function (data) {
       $('#project-searchInput').attr('placeholder', 'Suche in ' + $.number(data.response.numFound,0, ',', '.') +
       ' Dokumenten');
+      },
+      });
+      });
+    </script>
+  </section>
+
+  <section xml:lang="en" i18n="project.index.title">
+    <div id="project-index-search">
+      <div class="row mb-4">
+        <div class="col-md-12" lang="de">
+          <index_search_form />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-8">
+          <div class="card">
+            <div class="card-header">
+              <h2 class="card-title"><span>About SPKtrum</span></h2>
+            </div>
+            <div class="card-body">
+              <p>
+                SPKtrum <span>[ˈʃpɛktʁʊm ]</span>  is the open science repository of the Prussian Cultural Heritage
+                Foundation (SPK). Here, multimedia content from all areas of the Prussian Cultural Heritage Foundation
+                is offered for free reuse.
+              </p>
+              <p>
+                This complements the diverse digital services of the Berlin State Museums (SMB), the Berlin State
+                Library (SBB), the Secret State Archives Prussian Cultural Heritage Foundation (GStA PK), the
+                Ibero-American Institute (IAI), and the State Institute for Music Research (SIM PK).
+              </p>
+              <p>
+                In addition, authors outside the SPK also have the opportunity to submit their publications to SPKtrum
+                if they have a concrete connection to the foundation or its collection and meet scholarly quality
+                standards.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-header">
+              <h2 class="card-title">
+                <i class="fas fa-info" id="fp-fa-info" aria-hidden="true" />
+                <span>Open Science in der SPK</span>
+              </h2>
+            </div>
+            <div class="card-body">
+              <ul>
+                <li><a href="./about/further_reading.xml">Further digital services</a> with regard to Open Science by the different institutions within the SPK</li>
+                <li><a href="https://www.preussischer-kulturbesitz.de/schwerpunkte/digitalisierung/open-science.html" target="_blank">
+                  Open Science Declaration of the SPK</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="feature-logos">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="logos">
+              <div class="logo">
+                <!--<a href="">
+                  <img class="re3data_logo img-fluid" src="../images/re3data-dummy.png" />
+                </a>-->
+              </div>
+              <div class="logo">
+                <a href="">
+                  <img class="openaire_logo img-fluid" src="../images/OpenAIRE_validated.png" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="jumbotwo" />
+    <script src="../js/jquery.number.js" />
+    <script>
+      $( document ).ready(function() {
+      $.ajax({
+      type: "GET",
+      url: "../api/v1/searchPublic?q=objectType:mods AND state:published&amp;rows=0&amp;wt=json&amp;json.wrf=?",
+      dataType: "jsonp",
+      success: function (data) {
+      $('#project-searchInput').attr('placeholder', 'Search in ' + $.number(data.response.numFound,0, ',', '.') +
+      ' documents');
       },
       });
       });

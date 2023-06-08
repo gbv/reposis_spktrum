@@ -1,23 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MyCoReWebPage>
-    <section xml:lang="de" title="Haftungshinweise">
-        <div class="row">
-            <div class="col-md-12" lang="de">
-                <h2>Haftungshinweise</h2>
+	<section xml:lang="de" title="Disclaimer">
+		<div class="row">
+			<div class="col-md-12" lang="de">
+				<h2>Disclaimer</h2>
 
-                <p>Als Trägerin von SPKtrum ist die Stiftung Preußischer Kulturbesitz um Richtigkeit und Aktualität der auf dieser Internetpräsenz bereitgestellten Informationen bemüht. Trotzdem können Fehler und Unklarheiten nicht vollständig ausgeschlossen werden. Die Stiftung Preußischer Kulturbesitz übernimmt daher keinerlei Gewähr für die Aktualität, Korrektheit, Vollständigkeit oder Qualität der bereitgestellten Informationen. Die Nutzung der Inhalte der Website erfolgt auf eigene Gefahr des Nutzers. Gleiches gilt für kostenlos zum Download bereitgehaltene Inhalte. Alle Angebote sind freibleibend und unverbindlich. Die Stiftung Preußischer Kulturbesitz behält es sich explizit vor, Teile des Internetangebotes oder das gesamte Angebot ohne gesonderte Ankündigung zu verändern oder zu ergänzen.</p>
+				<p>
+					Als Trägerin von SPKtrum ist die Stiftung Preußischer Kulturbesitz um Richtigkeit und Aktualität der auf
+					dieser Internetpräsenz bereitgestellten Informationen bemüht. Trotzdem können Fehler und Unklarheiten nicht
+					vollständig ausgeschlossen werden. Die Stiftung Preußischer Kulturbesitz übernimmt daher keinerlei Gewähr für
+					die Aktualität, Korrektheit, Vollständigkeit oder Qualität der bereitgestellten Informationen. Die Nutzung der
+					Inhalte der Website erfolgt auf eigene Gefahr des Nutzers. Gleiches gilt für kostenlos zum Download
+					bereitgehaltene Inhalte. Alle Angebote sind freibleibend und unverbindlich. Die Stiftung Preußischer
+					Kulturbesitz behält es sich explizit vor, Teile des Internetangebotes oder das gesamte Angebot ohne gesonderte
+					Ankündigung zu verändern oder zu ergänzen.
+				</p>
 
-                <p>Das Angebot von SPKtrum enthält Links zu externen Webseiten Dritter, auf deren Inhalte die Stiftung Preußischer Kulturbesitz keinen Einfluss hat. Deshalb kann SPKtrum für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden derartige Links umgehend entfernt. Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten durch Dritte zur Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit ausdrücklich widersprochen. Die Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-Mails, vor. Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet.</p>
+				<p>
+					Das Angebot von SPKtrum enthält Links zu externen Webseiten Dritter, auf deren Inhalte die Stiftung
+					Preußischer Kulturbesitz keinen Einfluss hat. Deshalb kann SPKtrum für diese fremden Inhalte auch keine Gewähr
+					übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten
+					verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße
+					überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente
+					inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung
+					nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden derartige Links umgehend entfernt. Der Nutzung
+					von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten durch Dritte zur Übersendung von nicht
+					ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit ausdrücklich widersprochen. Die
+					Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von
+					Werbeinformationen, etwa durch Spam-Mails, vor. Soweit die Inhalte auf dieser Seite nicht vom Betreiber
+					erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche
+					gekennzeichnet.
+				</p>
 
-                <p>Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bittet SPKtrum um einen entsprechenden Hinweis. Bei Kenntnis von Rechtsverletzungen werden derartige Inhalte umgehend entfernt.</p>
+				<p>
+					Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bittet SPKtrum um einen
+					entsprechenden Hinweis. Bei Kenntnis von Rechtsverletzungen werden derartige Inhalte umgehend entfernt.
+				</p>
 
-                <h3>Rechtswirksamkeit dieses Haftungsausschlusses</h3>
+				<h3>Rechtswirksamkeit dieses Haftungsausschlusses</h3>
+				<p>
+					Der im Vorstehenden formulierte Haftungsausschluss ist als Teil des Internetangebotes zu betrachten, von dem
+					aus auf diese Seite verwiesen wurde. Insofern Teile oder einzelne Formulierungen dieses Textes der aktuell
+					geltenden Rechtslage nicht, nicht mehr oder nicht vollständig entsprechen sollten, bleiben die übrigen Teile
+					des Dokumentes in Hinblick sowohl auf ihren Inhalt als auch und vor allem auf ihre Gültigkeit davon unberührt.
+				</p>
 
-                <p>Der im Vorstehenden formulierte Haftungsausschluss ist als Teil des Internetangebotes zu betrachten, von dem aus auf diese Seite verwiesen wurde. Insofern Teile oder einzelne Formulierungen dieses Textes der aktuell geltenden Rechtslage nicht, nicht mehr oder nicht vollständig entsprechen sollten, bleiben die übrigen Teile des Dokumentes in Hinblick sowohl auf ihren Inhalt als auch und vor allem auf ihre Gültigkeit davon unberührt.</p>
+			</div>
+		</div>
+	</section>
+	<section xml:lang="en" title="Disclaimer">
+		<div class="row">
+			<div class="col-md-12" lang="en">
+				<h2>Disclaimer</h2>
 
-            </div>
-        </div>
-    </section>
-    <meta>
-    </meta>
+				<p>
+					The provider of SPKtrum is the Stiftung Preußischer Kulturbesitz (Prussian Cultural Heritage Foundation) in
+					Berlin. The provider makes every effort to ensure that the information provided on this website is correct and
+					up-to-date. Nevertheless, mistakes and unclarities cannot be completely ruled out. The Stiftung Preußischer
+					Kulturbesitz therefore accepts no responsibility for the topicality, correctness, completeness or quality of
+					the information provided. The use of the contents of the website is at the user's own risk. The same applies
+					to content made available for download free of charge. All offers are subject to change and non-binding. The
+					Stiftung Preußischer Kulturbesitz explicitly reserves the right to change or supplement parts of the website
+					or the entire website without prior notice.
+				</p>
+
+				<p>
+					The SPKtrum website contains links to external third-party websites, the content of which the Stiftung
+					Preußischer Kulturbesitz has no influence on. Therefore, SPKtrum cannot assume any liability for these
+					external contents. The responsibility for the content of linked websites is always with the providers of those
+					sites. The linked pages were checked for possible legal violations at the time of linking. Illegal contents
+					were not recognizable at the time of linking. However, a permanent control of the contents of the linked pages
+					is not feasable without concrete evidence of a violation of the law. If law-violations are discovered, such
+					links will be removed immediately.
+				</p>
+
+				<p>
+					It is expressly rejected that contact data that has been published to satisfy the imprint obligation be used
+					by a third party to send advertisement or information materials unless expressly requested. The provider of
+					the pages expressly reserves the right to take legal action in the event of unwanted delivery of advertising
+					information, through spam mails or otherwise.
+				</p>
+				<p>
+					Insofar as the content on this site was not created by the provider, the copyrights of third parties are
+					respected. In particular, content of third-parties is identified as such. Should you nevertheless become aware
+					of a copyright infringement, SPKtrum asks you to notify us accordingly. If we become aware of any violation of
+					the law, relevant content will be removed immediately.
+				</p>
+
+				<h3>Legal validity of this disclaimer</h3>
+				<p>
+					The above disclaimer is to be regarded as part of the internet publication which you were referred from. If
+					sections or individual terms of this statement do not, not anymore or not fully conform to the currently
+					applicable legal situation, the rest of the text is not affected in its content and is especially not affected
+					in its validity.
+				</p>
+
+			</div>
+		</div>
+	</section>
+	<meta>
+	</meta>
 </MyCoReWebPage>

@@ -1,20 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MyCoReWebPage><section xml:lang="de" title="Nutzungsbedingungen"><div class="row">
-<div class="col-md-12" lang="de">
-<h2>Nutzungsbedingungen</h2>
+<MyCoReWebPage>
+	<section xml:lang="de" title="Nutzungsbedingungen">
+		<div class="row">
+			<div class="col-md-12" lang="de">
+				<h2>Nutzungsbedingungen</h2>
 
-<p>Die elektronischen Dokumente werden in SPKtrum, sofern möglich, unter einer CC-Lizenz veröffentlicht. Alle auf SPKtrum veröffentlichten beschreibenden bibliographischen Metadaten – mit Ausnahme der Abstracts – stehen unter der CC0 1.0 Universell-Lizenz zur freien Weiterverwendung zur Verfügung.</p>
+				<p>
+					Die elektronischen Dokumente werden in SPKtrum, sofern möglich, unter einer CC-Lizenz veröffentlicht. Alle
+					auf SPKtrum veröffentlichten beschreibenden bibliographischen Metadaten – mit Ausnahme der Abstracts – stehen
+					unter der CC0 1.0 Universell-Lizenz zur freien Weiterverwendung zur Verfügung.
+				</p>
 
-<h3>Zitation von Erstpublikationen</h3>
+				<h3>Zitation von Erstpublikationen</h3>
 
-<p>Wenn Sie einen Beitrag, der in SPKtrum als Erstpublikationen ausgewiesen ist, in einem neuen Kontext nutzen, können Sie die vollständige Quellenangabe entweder anhand der Zitierform machen, die im jeweiligen Beitrag in der rechten Spalte angegeben ist. Alternativ kann auch eine Zitation nur anhand des Persistenten Identifiers (DOI) in folgender Form erfolgen:</p>
+				<p>
+					Wenn Sie einen Beitrag, der in SPKtrum als Erstpublikationen ausgewiesen ist, in einem neuen Kontext nutzen,
+					können Sie die vollständige Quellenangabe entweder anhand der Zitierform machen, die im jeweiligen Beitrag in
+					der rechten Spalte angegeben ist. Alternativ kann auch eine Zitation nur anhand des Persistenten Identifiers
+					(DOI) in folgender Form erfolgen:
+				</p>
 
-<p>Quellenangabe: SPKtrum Repository, Persistent-Identifier (DOI) des digitalen Objects<br />
-Beispiele: SPKtrum Repository, https://doi.org/10.24355/dbbs.084-201802231113 (DOI)</p>
+				<p>
+					Quellenangabe: SPKtrum Repository, Persistent-Identifier (DOI) des digitalen Objects
+					<br/>
+					Beispiele: SPKtrum Repository, https://doi.org/10.24355/dbbs.084-201802231113 (DOI)
+				</p>
 
-<h3>Zitation von Zweitpublikationen</h3>
+				<h3>Zitation von Zweitpublikationen</h3>
 
-<p>Bei Nutzung eines elektronischen Dokumentes, das als Zweitpublikation ausgewiesen ist, verwenden Sie bitte die im jeweiligen Beitrag in der rechten Spalte angegebene Zitierform.</p>
-</div>
-</div>
-</section><meta><log lastEditor="test_admin" date="2023-01-23" time="15:27" /></meta></MyCoReWebPage>
+				<p>B
+					ei Nutzung eines elektronischen Dokumentes, das als Zweitpublikation ausgewiesen ist, verwenden Sie bitte
+					die im jeweiligen Beitrag in der rechten Spalte angegebene Zitierform.
+				</p>
+			</div>
+		</div>
+	</section>
+	<section xml:lang="en" title="Terms of use">
+		<div class="row">
+			<div class="col-md-12" lang="en">
+
+				<h2>Terms of use</h2>
+
+				<p>
+					Electronic documents are published on SPKtrum under a CC license where possible. All descriptive bibliographic
+					metadata published on SPKtrum - with the exception of abstracts - are available for free reuse under the
+					CC0 1.0 Universal license.
+				</p>
+
+				<h3>Citation of first publications</h3>
+				<p>
+					When using a contribution identified as first publications in SPKtrum in a new context, you can make the full
+					citation either using the citation form indicated in the right column of the respective contribution.
+					Alternatively, a citation can be made using only the persistent identifier (DOI) in the following form:
+				</p>
+
+				<p>
+					Source citation: SPKtrum repository, persistent identifier (DOI) of the digital object.
+					<br/>
+					Example: SPKtrum Repository, https://doi.org/10.58159/20230330-000 (DOI).
+				</p>
+
+				<h3>Citation of secondary publications</h3>
+				<p>
+					When using an electronic document that is designated as a secondary publication, please use the citation form
+					indicated in the right column of the respective article.
+				</p>
+			</div>
+		</div>
+	</section>
+	<meta></meta>
+</MyCoReWebPage>

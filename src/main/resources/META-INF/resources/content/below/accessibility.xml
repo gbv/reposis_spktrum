@@ -1,31 +1,127 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MyCoReWebPage><section xml:lang="de" title="Barrierefreiheitserklärung"><div class="row">
-<div class="col-md-12" lang="de">
-<h2>Erklärung zur Barrierefreiheit</h2>
+<MyCoReWebPage>
+	<section xml:lang="de" title="Barrierefreiheitserklärung">
+		<div class="row">
+			<div class="col-md-12" lang="de">
 
-<p>Um eine weitgehende Barrierefreiheit zu ermöglichen, ist die Stiftung Preußischer Kulturbesitz bemüht, das Webangebot entsprechend zu optimieren. Rechtsgrundlagen sind das Behindertengleichstellungsgesetz (BGG) sowie die Barrierefreie-Informationstechnik-Verordnung (BITV).</p>
+				<h2>Erklärung zur Barrierefreiheit</h2>
 
-<p>Diese Website befindet sich im Aufbau. Vor diesem Hintergrund wird für diese Webseite baldmöglichst ein aktualisierter (manueller), von der W3C Web Accessibility Initiative (WAI) entwickelter <a href="https://bik-fuer-alle.de/easy-checks.html" target="_blank">Test</a> durchgeführt werden.</p>
+				<p>
+					Um eine weitgehende Barrierefreiheit zu ermöglichen, ist die Stiftung Preußischer Kulturbesitz bemüht, das
+					Webangebot entsprechend zu optimieren. Rechtsgrundlagen sind das Behindertengleichstellungsgesetz (BGG) sowie
+					die Barrierefreie-Informationstechnik-Verordnung (BITV).
+				</p>
 
-<h3>Kontakt</h3>
+				<p>
+					Diese Website befindet sich im Aufbau. Vor diesem Hintergrund wird für diese Webseite baldmöglichst ein
+					aktualisierter (manueller), von der W3C Web Accessibility Initiative (WAI) entwickelter <a
+							href="https://bik-fuer-alle.de/easy-checks.html" target="_blank">Test
+					</a> durchgeführt werden.
+				</p>
 
-<p>Über die Kontaktseite der Stiftung Preußischer Kulturbesitz <a href="https://www.preussischer-kulturbesitz.de/service/barriere-melden.html" target="_blank"> https://www.preussischer-kulturbesitz.de/service/barriere-melden.html </a> können sie Mängel in Bezug auf die Einhaltung der Barrierefreiheitsanforderungen mitteilen und nicht barrierefreie Inhalte in einem für sie zugänglichen Format anfordern.</p>
+				<h3>Kontakt</h3>
+				<p>
+					Über die Kontaktseite der Stiftung Preußischer Kulturbesitz <a
+						href="https://www.preussischer-kulturbesitz.de/service/barriere-melden.html" target="_blank">
+					https://www.preussischer-kulturbesitz.de/service/barriere-melden.html	</a> können sie Mängel in Bezug auf die
+					Einhaltung der Barrierefreiheitsanforderungen mitteilen und nicht	barrierefreie Inhalte in einem für sie
+					zugänglichen Format anfordern.
+				</p>
 
-<h3>Schlichtungsverfahren</h3>
+				<h3>Schlichtungsverfahren</h3>
+				<p>
+					Wenn auch nach Ihrem Feedback an den oben genannten Kontakt keine zufriedenstellende Lösung gefunden wurde,
+					können Sie sich an die Schlichtungsstelle nach § 16 BGG wenden. Die Schlichtungsstelle BGG hat die Aufgabe,
+					bei Konflikten zum Thema Barrierefreiheit zwischen Menschen mit Behinderungen und öffentlichen Stellen des
+					Bundes eine außergerichtliche Streitbeilegung zu unterstützen. Das Schlichtungsverfahren ist kostenlos. Es
+					muss kein Rechtsbeistand eingeschaltet werden.
+				</p>
 
-<p>Wenn auch nach Ihrem Feedback an den oben genannten Kontakt keine zufriedenstellende Lösung gefunden wurde, können Sie sich an die Schlichtungsstelle nach § 16 BGG wenden. Die Schlichtungsstelle BGG hat die Aufgabe, bei Konflikten zum Thema Barrierefreiheit zwischen Menschen mit Behinderungen und öffentlichen Stellen des Bundes eine außergerichtliche Streitbeilegung zu unterstützen. Das Schlichtungsverfahren ist kostenlos. Es muss kein Rechtsbeistand eingeschaltet werden.</p>
+				<h3>Kontakt zur Schlichtungsstelle</h3>
+				<p>
+					Schlichtungsstelle nach dem Behindertengleichstellungsgesetz bei dem Beauftragten der Bundesregierung für die
+					Belange von Menschen mit Behinderungen
+				</p>
 
-<h3>Kontakt zur Schlichtungsstelle</h3>
+				<p>Mauerstraße 53
+					<br/>
+					10117 Berlin
+					<br/>
+					<br/>
+					Telefon: +49 (0)30 18 527-2805
+					<br/>
+					Fax: +49 (0)30 18 527-2901
+					<br/>
+					E-Mail:
+					<a href="mailto: info@schlichtungsstelle-bgg.de">
+						<span class="madress">info@schlichtungsstelle-bgg.de</span>
+					</a>
+					<br/>
+					Internet:
+					<a href="http://www.schlichtungsstelle-bgg.de/" target="_blank">www.schlichtungsstelle-bgg.de</a>
+				</p>
+			</div>
+		</div>
+	</section>
+	<section xml:lang="en" title="Accessibility">
+		<div class="row">
+			<div class="col-md-12" lang="en">
+				<h2>Declaration on Accessibility</h2>
 
-<p>Schlichtungsstelle nach dem Behindertengleichstellungsgesetz bei dem Beauftragten der Bundesregierung für die Belange von Menschen mit Behinderungen</p>
+				<p>
+					The Stiftung Preußischer Kulturbesitz (Prussian Cultural Heritage Foundation) endeavours to optimise its website in order to ensure greatest possible accessibility. The legal basis for this are the German Act on Equal Opportunities for Persons with Disabilities (BGG) and the Barrier-Free Information Technology Ordinance (BITV).
+				</p>
 
-<p>Mauerstraße 53<br />
-10117 Berlin<br />
-<br />
-Telefon: +49 (0)30 18 527-2805<br />
-Fax: +49 (0)30 18 527-2901<br />
-E-Mail: <a href="mailto: info@schlichtungsstelle-bgg.de"><span class="madress">info@schlichtungsstelle-bgg.de</span></a><br />
-Internet: <a href="http://www.schlichtungsstelle-bgg.de/" target="_blank">www.schlichtungsstelle-bgg.de</a></p>
-</div>
-</div>
-</section><meta><log lastEditor="test_admin" date="2023-01-12" time="11:21" /></meta></MyCoReWebPage>
+				<p>
+					This website is currently under construction. Against this background, an updated (manual) <a
+						href="https://bik-fuer-alle.de/easy-checks.html" target="_blank">test</a> developed by the W3C Web
+					Accessibility Initiative (WAI) will be carried out for this website as soon as possible.
+				</p>
+
+				<h3>Contact</h3>
+				<p>
+					Via the contact page of the Prussian Cultural Heritage Foundation
+					<a href="https://www.preussischer-kulturbesitz.de/service/barriere-melden.html" target="_blank">
+						https://www.preussischer-kulturbesitz.de/service/barriere-melden.html</a>, you can report deficiencies
+					regarding compliance with accessibility requirements and request non-accessible content in a format that is
+					accessible to you.
+				</p>
+
+				<h3>Arbitration Service</h3>
+				<p>
+					If a satisfactory solution has not been found even after you have sent feedback to the above-mentioned contact,
+					you can turn to the arbitration service pursuant to section 16 BGG. The BGG arbitration service has the
+					task of supporting an out-of-court settlement of disputes in the event of conflicts on the subject of
+					accessibility between persons with disabilities and federal public bodies. The arbitration service is
+					free of charge. No legal counsel needs to be involved.
+				</p>
+
+				<h3>Contact the Arbitration Service</h3>
+				<p>
+					The Arbitration Service according to the German Act on Equal Opportunities for Persons with Disabilities is
+					located at the Federal Government Commissioner for Matters relating to Persons with Disabilities
+				</p>
+
+				<p>Mauerstraße 53
+					<br/>
+					10117 Berlin
+					<br/>
+					<br/>
+					Telephone: +49 (0)30 18 527-2805
+					<br/>
+					Fax: +49 (0)30 18 527-2901
+					<br/>
+					Email:
+					<a href="mailto: info@schlichtungsstelle-bgg.de">
+						<span class="madress">info@schlichtungsstelle-bgg.de</span>
+					</a>
+					<br/>
+					Internet:
+					<a href="http://www.schlichtungsstelle-bgg.de/" target="_blank">www.schlichtungsstelle-bgg.de</a>
+				</p>
+			</div>
+		</div>
+	</section>
+	<meta>
+	</meta>
+</MyCoReWebPage>
