@@ -42,6 +42,7 @@
     <xed:remove  ref="sdnb.repeat" />
     <xed:include ref="institutes.repeat"                 after="institutes" />
     <xed:remove  ref="institutes" />
+
   </xed:modify>
   
   <xed:modify ref="genres.report.common">
@@ -108,6 +109,27 @@
   </xed:modify>
   
   <!-- ========== spktrum specific templates ========== -->
+
+  <xed:template id="year.issued">
+    <mir:textfield xpath="mods:originInfo[@eventType='publication']/mods:dateIssued[@encoding='w3cdtf']"
+                   label="mir.date.issued.4" help-text="{i18n:mir.help.date.issued.4}"
+                   placeholder="{i18n:mir.placeholder.year}"
+                   class="required" required="true" required-i18n="mir.validation.dateIssued"/>
+  </xed:template>
+
+  <xed:template id="year.issued.relItem">
+    <mir:textfield xpath="mods:originInfo[@eventType='publication']/mods:dateIssued[@encoding='w3cdtf']"
+                   label="mir.date.issued.4" help-text="{i18n:mir.help.date.issued.4}"
+                   class="mir-modspart required" placeholder="{i18n:mir.placeholder.year}"
+                   required="true" required-i18n="mir.validation.dateIssued"/>
+  </xed:template>
+
+  <xed:template id="date.onlyrange.issued.datetimepicker">
+    <mir:dateRange xpath="mods:originInfo[@eventType='publication']/mods:dateIssued[@encoding='w3cdtf']"
+                   label="mir.date.issued.onlyRange" help-text="{i18n:mir.help.date.issued.onlyRange}"
+                   class="datetimepicker required" placeholder="{i18n:mir.placeholder.date}" onlyRange="true"
+                   required="true" required-i18n="mir.validation.dateIssued"/>
+  </xed:template>
 
   <xed:template id="genres.single_issue.common">
     <xed:if test="$host='series'">
