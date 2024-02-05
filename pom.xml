@@ -27,7 +27,7 @@
         <version>2022.06-SNAPSHOT</version>
     </parent>
 
-    <groupId>de.gbv.spktrum</groupId>
+    <groupId>de.gbv.reposis</groupId>
     <artifactId>reposis_spktrum</artifactId>
     <version>2022.06-SNAPSHOT</version>
     <properties>
