@@ -1,5 +1,4 @@
-
-# spktrum
+# SPKtrum [ˈʃpɛktʁʊm ]
 
 ## Installation Instructions
 
