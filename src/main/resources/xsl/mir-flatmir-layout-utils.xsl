@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="1.0"
-    xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:i18n="xalan://org.mycore.services.i18n.MCRTranslation"
-    xmlns:mcrver="xalan://org.mycore.common.MCRCoreVersion"
-    xmlns:mcrxsl="xalan://org.mycore.common.xml.MCRXMLFunctions"
-    exclude-result-prefixes="i18n mcrver mcrxsl">
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
   <xsl:import href="resource:xsl/layout/mir-common-layout.xsl" />
+
+  <xsl:variable name="isAdmin"
+                select="document('userobjectrights:isCurrentUserInRole:admin')/boolean"/>
+  <xsl:variable name="isEditor"
+                select="document('userobjectrights:isCurrentUserInRole:editor')/boolean"/>
 
   <xsl:template name="mir.navigation">
     <div class="mir-top-nav">
@@ -98,12 +98,12 @@
                 <div class="input-group">
                   <input
                     name="condQuery"
-                    placeholder="{i18n:translate('mir.navsearch.placeholder')}"
+                    placeholder="{document('i18n:mir.navsearch.placeholder')/i18n/text()}"
                     class="form-control search-query"
                     id="searchInput"
                     type="text"
                     aria-label="Search" />
-                  <xsl:if test="mcrxsl:isCurrentUserInRole('admin') or mcrxsl:isCurrentUserInRole('editor')">
+                  <xsl:if test="$isAdmin='true' or $isEditor='true'">
                     <input name="owner" type="hidden" value="createdby:*" />
                   </xsl:if>
                   <div class="input-group-append">
@@ -167,7 +167,7 @@
   </xsl:template>
 
   <xsl:template name="mir.powered_by">
-    <xsl:variable name="mcr_version" select="concat('MyCoRe ',mcrver:getCompleteVersion())" />
+    <xsl:variable name="mcr_version" select="document('version:full')/version/text()" />
     <div id="powered_by" class="footer__credits">
       <div class="container">
         <div class="row">
@@ -176,7 +176,10 @@
           </div>
           <div class="col-12 col-md-6 credits-mycore">
             <a href="http://www.mycore.de">
-              <img src="{$WebApplicationBaseURL}mir-layout/images/mycore_logo_small_invert.png" title="{$mcr_version}" alt="powered by MyCoRe" />
+              <img
+                src="{$WebApplicationBaseURL}mir-layout/images/mycore_logo_small_invert.png"
+                title="{$mcr_version}"
+                alt="powered by MyCoRe" />
             </a>
           </div>
         </div>
@@ -235,20 +238,20 @@
       <xsl:when test="starts-with($link,'/')">
         <xsl:choose>
           <xsl:when test="substring($appBaseUrl, string-length($appBaseUrl), 1) = '/'">
-            <xsl:value-of select="concat(substring($appBaseUrl, 1, string-length($appBaseUrl) - 1), $link)"/>
+            <xsl:value-of select="concat(substring($appBaseUrl, 1, string-length($appBaseUrl) - 1), $link)" />
           </xsl:when>
           <xsl:otherwise>
-            <xsl:value-of select="concat($appBaseUrl, $link)"/>
+            <xsl:value-of select="concat($appBaseUrl, $link)" />
           </xsl:otherwise>
         </xsl:choose>
       </xsl:when>
       <xsl:otherwise>
         <xsl:choose>
           <xsl:when test="substring($appBaseUrl, string-length($appBaseUrl), 1) = '/'">
-            <xsl:value-of select="concat($appBaseUrl, $link)"/>
+            <xsl:value-of select="concat($appBaseUrl, $link)" />
           </xsl:when>
           <xsl:otherwise>
-            <xsl:value-of select="concat($appBaseUrl, '/', $link)"/>
+            <xsl:value-of select="concat($appBaseUrl, '/', $link)" />
           </xsl:otherwise>
         </xsl:choose>
       </xsl:otherwise>
