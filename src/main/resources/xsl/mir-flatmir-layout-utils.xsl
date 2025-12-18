@@ -3,11 +3,6 @@
 
   <xsl:import href="resource:xsl/layout/mir-common-layout.xsl" />
 
-  <xsl:variable name="isAdmin"
-                select="document('userobjectrights:isCurrentUserInRole:admin')/boolean"/>
-  <xsl:variable name="isEditor"
-                select="document('userobjectrights:isCurrentUserInRole:editor')/boolean"/>
-
   <xsl:template name="mir.navigation">
     <div class="mir-top-nav">
       <div class="container">
@@ -103,7 +98,7 @@
                     id="searchInput"
                     type="text"
                     aria-label="Search" />
-                  <xsl:if test="$isAdmin='true' or $isEditor='true'">
+                  <xsl:if test="contains($isSearchAllowedForCurrentUser, 'true')">
                     <input name="owner" type="hidden" value="createdby:*" />
                   </xsl:if>
                   <div class="input-group-append">
