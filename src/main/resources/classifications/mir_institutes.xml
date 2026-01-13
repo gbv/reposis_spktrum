@@ -16,19 +16,19 @@
       <label xml:lang="en" text="Staatsbibliothek zu Berlin" />
       <url xlink:href="https://staatsbibliothek-berlin.de" xlink:type="locator" />
     </category>
- 
+
     <category ID="GStA">
       <label xml:lang="de" text="Geheimes Staatsarchiv Preußischer Kulturbesitz" />
       <label xml:lang="en" text="Geheimes Staatsarchiv Preußischer Kulturbesitz" />
       <url xlink:href="https://gsta.preussischer-kulturbesitz.de" xlink:type="locator" />
     </category>
- 
+
     <category ID="IAI">
       <label xml:lang="de" text="Ibero-Amerikanisches Institut" />
       <label xml:lang="en" text="Ibero-Amerikanisches Institut" />
       <url xlink:href="https://www.iai.spk-berlin.de" xlink:type="locator" />
     </category>
- 
+
     <category ID="SIM">
       <label xml:lang="de" text="Staatliches Institut für Musikforschung" />
       <label xml:lang="en" text="Staatliches Institut für Musikforschung" />
@@ -40,7 +40,7 @@
       <label xml:lang="en" text="Hauptverwaltung SPK" />
       <url xlink:href="https://www.preussischer-kulturbesitz.de/ueber-uns/hauptverwaltung.html" xlink:type="locator" />
     </category>
- 
+
     <category ID="SPK">
       <label xml:lang="de" text="Stiftung Preußischer Kulturbesitz" />
       <label xml:lang="en" text="Stiftung Preußischer Kulturbesitz" />
@@ -51,6 +51,6 @@
       <label xml:lang="de" text="Andere" />
       <label xml:lang="en" text="Other" />
     </category>
-  
+
   </categories>
 </mycoreclass>
