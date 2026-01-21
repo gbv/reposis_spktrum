@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:stylesheet
+  version="1.0"
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+  xmlns:date="http://exslt.org/dates-and-times"
+  exclude-result-prefixes="date">
 
   <xsl:import href="resource:xsl/layout/mir-common-layout.xsl" />
 
@@ -167,7 +171,11 @@
       <div class="container">
         <div class="row">
           <div class="col-12 col-md-6 credits-spk">
-            <span>© 2023 Stiftung Preußischer Kulturbesitz</span>
+            <span>
+              ©
+              <xsl:value-of select="date:year(date:date())" />
+              Stiftung Preußischer Kulturbesitz
+            </span>
           </div>
           <div class="col-12 col-md-6 credits-mycore">
             <a href="http://www.mycore.de">
