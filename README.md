@@ -4,6 +4,7 @@
 
 * run `mvn clean install`
 * copy jar to ~/.mycore/(dev-)mir/lib/
+* configure mycore.properties if necessary
 
 ## Development
 

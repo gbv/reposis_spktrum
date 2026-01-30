@@ -1,56 +1,115 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="mir_institutes">
   <label xml:lang="de" text="Einrichtungen" description="Liste der Einrichtungen" />
-  <label xml:lang="x-uri" text="https://spktrum.spk-berlin.de/mir_institutes" />
   <label xml:lang="en" text="Institutions" description="A list of institutions" />
+  <label xml:lang="x-uri" text="https://spktrum.spk-berlin.de/mir_institutes" />
   <categories>
-
     <category ID="SMB">
       <label xml:lang="de" text="Staatliche Museen zu Berlin" />
       <label xml:lang="en" text="Staatliche Museen zu Berlin" />
-      <url xlink:href="https://www.smb.museum" xlink:type="locator" />
+      <url xlink:type="locator" xlink:href="https://www.smb.museum" />
+      <category ID="SMB-ANG">
+        <label xml:lang="de" text="Alte Nationalgalerie" />
+        <label xml:lang="en" text="Old National Gallery" />
+      </category>
+      <category ID="SMB-ANT">
+        <label xml:lang="de" text="Antikensammlung" />
+        <label xml:lang="en" text="Antiquities Collection" />
+      </category>
+      <category ID="SMB-IfM">
+        <label xml:lang="de" text="Institut für Museumsforschung" />
+        <label xml:lang="en" text="Institute for Museum Research" />
+      </category>
+      <category ID="SMB-GD">
+        <label xml:lang="de" text="Generaldirektion" />
+        <label xml:lang="en" text="General Management" />
+      </category>
+      <category ID="SMB-GG">
+        <label xml:lang="de" text="Gemäldegalerie" />
+        <label xml:lang="en" text="Picture Gallery" />
+      </category>
+      <category ID="SMB-KB">
+        <label xml:lang="de" text="Kunstbibliothek" />
+        <label xml:lang="en" text="Library of Arts" />
+      </category>
+      <category ID="SMB-EM">
+        <label xml:lang="de" text="Ethnologisches Museum" />
+        <label xml:lang="en" text="Ethnological Museum" />
+      </category>
+      <category ID="SMB-MK">
+        <label xml:lang="de" text="Münzkabinett" />
+        <label xml:lang="en" text="Numismatic Collection" />
+      </category>
+      <category ID="SMB-MEK">
+        <label xml:lang="de" text="Museum Europäischer Kulturen" />
+        <label xml:lang="en" text="Museum of European Cultures" />
+      </category>
+      <category ID="SMB-AK">
+        <label xml:lang="de" text="Museum für Asiatische Kunst" />
+        <label xml:lang="en" text="Museum of Asian Art" />
+      </category>
+      <category ID="SMB-ISL">
+        <label xml:lang="de" text="Museum für Islamische Kunst" />
+        <label xml:lang="en" text="Museum for Islamic Art" />
+      </category>
+      <category ID="SMB-MVF">
+        <label xml:lang="de" text="Museum für Vor- und Frühgeschichte" />
+        <label xml:lang="en" text="Museum for Prehistory and Early History" />
+      </category>
+      <category ID="SMB-HBF">
+        <label xml:lang="de" text="Nationalgalerie der Gegenwart - Hamburger Bahnhof " />
+        <label xml:lang="en" text="National Gallery for Contemporary Art - Hamburger Bahnhof" />
+      </category>
+      <category ID="SMB-RF">
+        <label xml:lang="de" text="Rathgen-Forschungslabor" />
+        <label xml:lang="en" text="Rathgen Research Laboratory" />
+      </category>
+      <category ID="SMB-SBM">
+        <label xml:lang="de" text="Skulpturensammlung und Museum für Byzantinische Kunst" />
+        <label xml:lang="en" text="Sculpture Collection and Museum for Byzantine Art" />
+      </category>
+      <category ID="SMB-VAM">
+        <label xml:lang="de" text="Vorderasiatisches Museum" />
+        <label xml:lang="en" text="Museum of Ancient Near East" />
+      </category>
+      <category ID="SMB-ZA">
+        <label xml:lang="de" text="Zentralarchiv" />
+        <label xml:lang="en" text="Central Archive" />
+      </category>
     </category>
-
     <category ID="SBB">
       <label xml:lang="de" text="Staatsbibliothek zu Berlin" />
       <label xml:lang="en" text="Staatsbibliothek zu Berlin" />
-      <url xlink:href="https://staatsbibliothek-berlin.de" xlink:type="locator" />
+      <url xlink:type="locator" xlink:href="https://staatsbibliothek-berlin.de" />
     </category>
- 
     <category ID="GStA">
       <label xml:lang="de" text="Geheimes Staatsarchiv Preußischer Kulturbesitz" />
       <label xml:lang="en" text="Geheimes Staatsarchiv Preußischer Kulturbesitz" />
-      <url xlink:href="https://gsta.preussischer-kulturbesitz.de" xlink:type="locator" />
+      <url xlink:type="locator" xlink:href="https://gsta.preussischer-kulturbesitz.de" />
     </category>
- 
     <category ID="IAI">
       <label xml:lang="de" text="Ibero-Amerikanisches Institut" />
       <label xml:lang="en" text="Ibero-Amerikanisches Institut" />
-      <url xlink:href="https://www.iai.spk-berlin.de" xlink:type="locator" />
+      <url xlink:type="locator" xlink:href="https://www.iai.spk-berlin.de" />
     </category>
- 
     <category ID="SIM">
       <label xml:lang="de" text="Staatliches Institut für Musikforschung" />
       <label xml:lang="en" text="Staatliches Institut für Musikforschung" />
-      <url xlink:href="https://www.simpk.de" xlink:type="locator" />
+      <url xlink:type="locator" xlink:href="https://www.simpk.de" />
     </category>
-
     <category ID="HV">
       <label xml:lang="de" text="Hauptverwaltung SPK" />
       <label xml:lang="en" text="Hauptverwaltung SPK" />
-      <url xlink:href="https://www.preussischer-kulturbesitz.de/ueber-uns/hauptverwaltung.html" xlink:type="locator" />
+      <url xlink:type="locator" xlink:href="https://www.preussischer-kulturbesitz.de/ueber-uns/hauptverwaltung.html" />
     </category>
- 
     <category ID="SPK">
       <label xml:lang="de" text="Stiftung Preußischer Kulturbesitz" />
       <label xml:lang="en" text="Stiftung Preußischer Kulturbesitz" />
-      <url xlink:href="https://www.preussischer-kulturbesitz.de" xlink:type="locator" />
+      <url xlink:type="locator" xlink:href="https://www.preussischer-kulturbesitz.de" />
     </category>
-
     <category ID="Other">
       <label xml:lang="de" text="Andere" />
       <label xml:lang="en" text="Other" />
     </category>
-  
   </categories>
 </mycoreclass>
