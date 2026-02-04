@@ -82,6 +82,7 @@
     <script src="../js/jquery.number.js" />
     <script>
       $( document ).ready(function() {
+      document.getElementById('project-searchMainPage')?.addEventListener('submit', ignoreEmptyFieldsOnSubmit);
       $.ajax({
       type: "GET",
       url: "../api/v1/searchPublic?q=objectType:mods AND state:published&amp;rows=0&amp;wt=json&amp;json.wrf=?",
@@ -172,6 +173,7 @@
     <script src="../js/jquery.number.js" />
     <script>
       $( document ).ready(function() {
+      document.getElementById('project-searchMainPage')?.addEventListener('submit', ignoreEmptyFieldsOnSubmit);
       $.ajax({
       type: "GET",
       url: "../api/v1/searchPublic?q=objectType:mods AND state:published&amp;rows=0&amp;wt=json&amp;json.wrf=?",

@@ -1,37 +1,45 @@
-
-$(document).ready(function() {
-
-  // spam protection for mails
-  $('span.madress').each(function(i) {
-      var text = $(this).text();
-      var address = text.replace(" [at] ", "@");
-      $(this).after('<a href="mailto:'+address+'">'+ address +'</a>')
-      $(this).remove();
+function replaceMaskedEmails() {
+  document.querySelectorAll("span.madress").forEach(span => {
+    const address = span.textContent.replace(' [at] ', '@');
+    const link = document.createElement('a');
+    link.href = `mailto:${address}`;
+    link.textContent = address;
+    span.replaceWith(link);
   });
+}
 
-  // activate empty search on start page
-  $("#project-searchMainPage").submit(function (evt) {
-    $(this).find(":input").filter(function () {
-          return !this.value;
-      }).attr("disabled", true);
-    return true;
+function ignoreEmptyFieldsOnSubmit(event) {
+  const form = event.currentTarget;
+  const inputs = form.querySelectorAll('input');
+  inputs.forEach(input => {
+    if (!input.value) {
+      input.dataset.nameBackup = input.name;
+      input.removeAttribute('name');
+    }
   });
+  // Restore field names after the form is submitted
+  // setTimeout ensures this runs after the submit event completes
+  setTimeout(() => {
+    inputs.forEach(input => {
+      if (input.dataset.nameBackup) {
+        input.name = input.dataset.nameBackup;
+        delete input.dataset.nameBackup;
+      }
+    });
+  }, 0);
+}
 
-  // replace URL if user language is english
-  if ($("html").attr("lang") === 'en') {
-    $("a[href='http://localhost:18601/spktrum/content/rights/Publikationsvertrag.pdf']").attr(
-        'href', 'http://localhost:18601/spktrum/content/rights/Publikationsvertrag_eng.pdf');
-    $("a[href='https://reposis-test.gbv.de/spktrum/content/rights/Publikationsvertrag.pdf']").attr(
-      'href', 'https://reposis-test.gbv.de/spktrum/content/rights/Publikationsvertrag_eng.pdf');
-    $("a[href='https://spktrum.spk-berlin.de/content/rights/Publikationsvertrag.pdf']").attr(
-        'href', 'https://spktrum.spk-berlin.de/content/rights/Publikationsvertrag_eng.pdf');
-  }
+function updatePublicationLinksToEnglish() {
+  document.querySelectorAll('a[href$="Publikationsvertrag.pdf"]').forEach(link => {
+    if (link.href.startsWith(webApplicationBaseURL)) {
+      link.href = link.href.replace('Publikationsvertrag.pdf', 'Publikationsvertrag_eng.pdf');
+    }
+  });
+}
 
-});
+function init() {
+  replaceMaskedEmails();
+  updatePublicationLinksToEnglish();
+}
 
-// $( document ).ajaxComplete(function() {
-//   remove series and journal as option from publish/index.xml
-//   $("select#genre option[value='series']").remove();
-//   $("select#genre option[value='journal']").remove();
-// });
-
+document.addEventListener('DOMContentLoaded', init);
