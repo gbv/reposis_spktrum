@@ -17,15 +17,6 @@ $(document).ready(function() {
     return true;
   });
 
-  // replace placeholder USERNAME with username
-  var userID = $("#currentUser strong").html();
-  var localHref = 'http://localhost:18601/mir/servlets/solr/select?q=createdby:' + userID + '&fq=objectType:mods';
-  $("a[href='http://localhost:18601/mir/servlets/solr/select?q=createdby:USERNAME']").attr('href', localHref);
-  var testHref = 'https://reposis-test.gbv.de/spktrum/servlets/solr/select?q=createdby:' + userID + '&fq=objectType:mods';
-  $("a[href='https://reposis-test.gbv.de/spktrum/servlets/solr/select?q=createdby:USERNAME']").attr('href', testHref);
-  var prodHref = 'https://spktrum.spk-berlin.de/servlets/solr/select?q=createdby:' + userID + '&fq=objectType:mods';
-  $("a[href='https://spktrum.spk-berlin.de/servlets/solr/select?q=createdby:USERNAME']").attr('href', prodHref);
-
   // replace URL if user language is english
   if ($("html").attr("lang") === 'en') {
     $("a[href='http://localhost:18601/spktrum/content/rights/Publikationsvertrag.pdf']").attr(
