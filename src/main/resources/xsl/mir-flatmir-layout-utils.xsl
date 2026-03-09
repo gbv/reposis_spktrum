@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet
-  version="1.0"
-  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+<xsl:stylesheet version="1.0"
   xmlns:date="http://exslt.org/dates-and-times"
-  exclude-result-prefixes="date">
+  xmlns:mcri18n="xalan://org.mycore.services.i18n.MCRTranslation"
+  xmlns:mcrversion="xalan://org.mycore.common.MCRCoreVersion"
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+  exclude-result-prefixes="date mcri18n mcrversion">
 
   <xsl:import href="resource:xsl/layout/mir-common-layout.xsl" />
 
@@ -29,13 +30,12 @@
         <div class="row align-items-center">
           <div class="col">
             <div class="project-logo">
-              <a href="{concat($WebApplicationBaseURL,substring($loaded_navigation_xml/@hrefStartingPage,2),$HttpSession)}"
-                 class="project-logo__link">
+              <a
+                href="{concat($WebApplicationBaseURL,substring($loaded_navigation_xml/@hrefStartingPage,2),$HttpSession)}"
+                class="project-logo__link">
                 <div class="project-logo__text">
                   <div class="project-logo__eagle">
-                    <img
-                      src="{$WebApplicationBaseURL}images/logo-eagle.png"
-                      alt="logo spk" />
+                    <img src="{$WebApplicationBaseURL}images/logo-eagle.png" alt="logo spk" />
                   </div>
                   <div class="project-logo__title">
                     <img
@@ -44,7 +44,9 @@
                       alt="logo spktrum" />
                   </div>
                 </div>
-                <h1 class="project-logo__slogan">Das OpenScience Repositorium der Stiftung Preußischer Kulturbesitz</h1>
+                <h1 class="project-logo__slogan">
+                  Das OpenScience Repositorium der Stiftung Preußischer Kulturbesitz
+                </h1>
               </a>
             </div>
           </div>
@@ -70,7 +72,7 @@
               <div id="mir-main-nav__entries" class="collapse navbar-collapse mir-main-nav__entries">
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                   <xsl:call-template name="project.generate_single_menu_entry">
-                    <xsl:with-param name="menuID" select="'brand'"/>
+                    <xsl:with-param name="menuID" select="'brand'" />
                   </xsl:call-template>
                   <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='search']" />
                   <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='publish']" />
@@ -97,7 +99,7 @@
                 <div class="input-group">
                   <input
                     name="condQuery"
-                    placeholder="{document('i18n:mir.navsearch.placeholder')/i18n/text()}"
+                    placeholder="{mcri18n:translate('mir.navsearch.placeholder')}"
                     class="form-control search-query"
                     id="searchInput"
                     type="text"
@@ -128,7 +130,11 @@
       <div class="container">
         <div class="row">
           <div class="col">
-            <a href="https://www.preussischer-kulturbesitz.de/index.html" class="sbb-logo" title="SPK Home" target="_blank">
+            <a
+              href="https://www.preussischer-kulturbesitz.de/index.html"
+              class="sbb-logo"
+              title="SPK Home"
+              target="_blank">
               <img class="sbb_logo img-fluid" src="{$WebApplicationBaseURL}/images/logo-spk-white-free.png" />
             </a>
           </div>
@@ -136,26 +142,26 @@
             <div class="footer-menu">
               <div class="footer-menu__column">
                 <xsl:call-template name="project.generate_footer_menu_link">
-                  <xsl:with-param name="menuLink" select="'/content/below/contact.xed'"/>
+                  <xsl:with-param name="menuLink" select="'/content/below/contact.xed'" />
                 </xsl:call-template>
                 <xsl:call-template name="project.generate_footer_menu_link">
-                  <xsl:with-param name="menuLink" select="'/content/below/imprint.xml'"/>
-                </xsl:call-template>
-              </div>
-              <div class="footer-menu__column">
-                <xsl:call-template name="project.generate_footer_menu_link">
-                  <xsl:with-param name="menuLink" select="'/content/below/rights.xml'"/>
-                </xsl:call-template>
-                <xsl:call-template name="project.generate_footer_menu_link">
-                  <xsl:with-param name="menuLink" select="'/content/below/terms_of_use.xml'"/>
+                  <xsl:with-param name="menuLink" select="'/content/below/imprint.xml'" />
                 </xsl:call-template>
               </div>
               <div class="footer-menu__column">
                 <xsl:call-template name="project.generate_footer_menu_link">
-                  <xsl:with-param name="menuLink" select="'/content/below/disclaimer.xml'"/>
+                  <xsl:with-param name="menuLink" select="'/content/below/rights.xml'" />
                 </xsl:call-template>
                 <xsl:call-template name="project.generate_footer_menu_link">
-                  <xsl:with-param name="menuLink" select="'/content/below/accessibility.xml'"/>
+                  <xsl:with-param name="menuLink" select="'/content/below/terms_of_use.xml'" />
+                </xsl:call-template>
+              </div>
+              <div class="footer-menu__column">
+                <xsl:call-template name="project.generate_footer_menu_link">
+                  <xsl:with-param name="menuLink" select="'/content/below/disclaimer.xml'" />
+                </xsl:call-template>
+                <xsl:call-template name="project.generate_footer_menu_link">
+                  <xsl:with-param name="menuLink" select="'/content/below/accessibility.xml'" />
                 </xsl:call-template>
               </div>
             </div>
@@ -166,19 +172,18 @@
   </xsl:template>
 
   <xsl:template name="mir.powered_by">
-    <xsl:variable name="mcr_version" select="document('version:full')/version/text()" />
+    <xsl:variable name="version" select="concat('MyCoRe ', mcrversion:getCompleteVersion())" />
     <div id="powered_by" class="footer__credits">
       <div class="container">
         <div class="row">
           <div class="col-12 col-md-6 credits-spk">
             <span>
               ©
-              <xsl:value-of select="date:year(date:date())" />
-              Stiftung Preußischer Kulturbesitz
+              <xsl:value-of select="date:year(date:date())" /> Stiftung Preußischer Kulturbesitz
             </span>
           </div>
           <div class="col-12 col-md-6 credits-mycore">
-            <a href="http://www.mycore.de">
+            <a href="https://www.mycore.de">
               <img
                 src="{$WebApplicationBaseURL}mir-layout/images/mycore_logo_small_invert.png"
                 title="{$mcr_version}"
@@ -193,10 +198,10 @@
   <xsl:template name="project.generate_single_menu_entry">
     <xsl:param name="menuID" />
     <li class="nav-item">
-      <xsl:variable name="menuItem" select="$loaded_navigation_xml/menu[@id=$menuID]/item" />
-      <xsl:variable name="activeClass">
+      <xsl:variable name="menu-item" select="$loaded_navigation_xml/menu[@id=$menuID]/item" />
+      <xsl:variable name="active-class">
         <xsl:choose>
-          <xsl:when test="$menuItem/@href = $browserAddress">
+          <xsl:when test="$menu-item/@href = $browserAddress">
             <xsl:text>active</xsl:text>
           </xsl:when>
           <xsl:otherwise>
@@ -204,57 +209,59 @@
           </xsl:otherwise>
         </xsl:choose>
       </xsl:variable>
-      <xsl:variable name="fullUrl">
-        <xsl:call-template name="resolveFullUrl">
-          <xsl:with-param name="link" select="$menuItem/@href" />
+      <xsl:variable name="full-url">
+        <xsl:call-template name="resolve-full-url">
+          <xsl:with-param name="link" select="$menu-item/@href" />
         </xsl:call-template>
       </xsl:variable>
-      <a id="{$menuID}" href="{$fullUrl}" class="nav-link {$activeClass}">
-        <xsl:apply-templates select="$menuItem" mode="linkText" />
+      <a id="{$menuID}" href="{$full-url}" class="nav-link {$active-class}">
+        <xsl:apply-templates select="$menu-item" mode="linkText" />
       </a>
     </li>
   </xsl:template>
 
   <xsl:template name="project.generate_footer_menu_link">
     <xsl:param name="menuLink" />
-    <xsl:variable name="menuItem" select="$loaded_navigation_xml/menu[@id='below']/item[@href=$menuLink]" />
-    <xsl:variable name="fullUrl">
-      <xsl:call-template name="resolveFullUrl">
-        <xsl:with-param name="link" select="$menuItem/@href" />
+    <xsl:variable name="menu-item" select="$loaded_navigation_xml/menu[@id='below']/item[@href=$menuLink]" />
+    <xsl:variable name="full-url">
+      <xsl:call-template name="resolve-full-url">
+        <xsl:with-param name="link" select="$menu-item/@href" />
       </xsl:call-template>
     </xsl:variable>
-    <a href="{$fullUrl}" >
-      <xsl:apply-templates select="$menuItem" mode="linkText" />
+    <a href="{$full-url}">
+      <xsl:apply-templates select="$menu-item" mode="linkText" />
     </a>
   </xsl:template>
 
-  <xsl:template name="resolveFullUrl">
+  <xsl:template name="resolve-full-url">
     <xsl:param name="link" />
-    <xsl:param name="appBaseUrl" select="$WebApplicationBaseURL" />
+    <xsl:param name="base-url" select="$WebApplicationBaseURL" />
     <xsl:choose>
-      <xsl:when test="starts-with($link,'http:')
-                      or starts-with($link,'https:')
-                      or starts-with($link,'mailto:')
-                      or starts-with($link,'ftp:')">
-        <xsl:value-of select="$link"/>
+      <xsl:when test="
+        starts-with($link,'http:')
+        or starts-with($link,'https:')
+        or starts-with($link,'mailto:')
+        or starts-with($link,'ftp:')
+      ">
+        <xsl:value-of select="$link" />
       </xsl:when>
       <xsl:when test="starts-with($link,'/')">
         <xsl:choose>
-          <xsl:when test="substring($appBaseUrl, string-length($appBaseUrl), 1) = '/'">
-            <xsl:value-of select="concat(substring($appBaseUrl, 1, string-length($appBaseUrl) - 1), $link)" />
+          <xsl:when test="substring($base-url, string-length($base-url), 1) = '/'">
+            <xsl:value-of select="concat(substring($base-url, 1, string-length($base-url) - 1), $link)" />
           </xsl:when>
           <xsl:otherwise>
-            <xsl:value-of select="concat($appBaseUrl, $link)" />
+            <xsl:value-of select="concat($base-url, $link)" />
           </xsl:otherwise>
         </xsl:choose>
       </xsl:when>
       <xsl:otherwise>
         <xsl:choose>
-          <xsl:when test="substring($appBaseUrl, string-length($appBaseUrl), 1) = '/'">
-            <xsl:value-of select="concat($appBaseUrl, $link)" />
+          <xsl:when test="substring($base-url, string-length($base-url), 1) = '/'">
+            <xsl:value-of select="concat($base-url, $link)" />
           </xsl:when>
           <xsl:otherwise>
-            <xsl:value-of select="concat($appBaseUrl, '/', $link)" />
+            <xsl:value-of select="concat($base-url, '/', $link)" />
           </xsl:otherwise>
         </xsl:choose>
       </xsl:otherwise>
