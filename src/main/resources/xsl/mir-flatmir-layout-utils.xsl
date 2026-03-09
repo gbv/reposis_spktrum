@@ -186,7 +186,7 @@
             <a href="https://www.mycore.de">
               <img
                 src="{$WebApplicationBaseURL}mir-layout/images/mycore_logo_small_invert.png"
-                title="{$mcr_version}"
+                title="{$version}"
                 alt="powered by MyCoRe" />
             </a>
           </div>
